@@ -35,7 +35,7 @@
 
 .text-content {
   width: 80%;
-  margin-left: 220px;
+  margin-left: 200px;
 }
 
 .text-content h2 {
@@ -79,7 +79,7 @@
   width: 70%;
   object-fit: contain;
   height: 120%;
-  margin-right: -70px;
+  margin-right: -90px;
   border-radius: 30px;
 }
 </style>
