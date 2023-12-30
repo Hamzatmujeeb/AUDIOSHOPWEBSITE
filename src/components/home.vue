@@ -84,7 +84,7 @@
     position: absolute;
     width: 1.458rem;
     height: 0.989rem;
-    left: 84.281rem;
+    left: 89.281rem;
     top: 4.313rem;
     background: none;
   }
@@ -112,7 +112,7 @@
   width: 708.8px;
   height: 656px;
   flex-shrink: 0;
-  margin-left: 42.75rem;
+  margin-left: 40.75rem;
   background: transparent;
    object-fit: contain;
   }
