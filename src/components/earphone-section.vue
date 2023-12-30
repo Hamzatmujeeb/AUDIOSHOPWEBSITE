@@ -35,7 +35,7 @@
 
 .text-content {
   width: 80%;
-  margin-left: 270px;
+  margin-left: 250px;
 }
 
 .text-content h2 {
