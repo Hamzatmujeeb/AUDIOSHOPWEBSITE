@@ -74,9 +74,9 @@
 }
 
 .image-column img {
-  width: 60%;
+  width: 70%;
   object-fit: contain;
-  height: auto;
-  border-radius: 10px;
+  height: 120%;
+  border-radius: 20px;
 }
 </style>

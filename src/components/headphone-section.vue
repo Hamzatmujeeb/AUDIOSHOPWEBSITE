@@ -33,16 +33,16 @@
 .container {
   display: flex;
   justify-content: center;
-  padding-top: 7.5rem;
+  padding-top: 8.5rem;
 }
 
 .products-container {
   display: grid;
   grid-template-columns: repeat(3, 22rem);
-  gap: 3.0625rem;
+  gap: 4.0625rem;
   padding: 4.375rem;
   place-content: center;
-  margin: 0 120px 0 380px;
+  margin: 0 120px 0 150px;
 }
 
 .products-columns {
