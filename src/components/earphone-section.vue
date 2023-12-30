@@ -21,8 +21,10 @@
 <style scoped>
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 100%;
+  grid-template-columns: 1fr 51rem;
+  position: absolute;
+  top: 3000px;
+  gap: 5px;
 }
 
 .content-column {
@@ -33,7 +35,7 @@
 
 .text-content {
   width: 80%;
-  margin-left: 250px;
+  margin-left: 270px;
 }
 
 .text-content h2 {
@@ -77,6 +79,7 @@
   width: 70%;
   object-fit: contain;
   height: 120%;
-  border-radius: 20px;
+  margin-right: -70px;
+  border-radius: 30px;
 }
 </style>
