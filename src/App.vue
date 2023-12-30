@@ -33,6 +33,7 @@ export default {
   width: 1440px;
   height:auto;
   flex-shrink: 0;
+  overflow: hidden;
   /* Add other global styles here */
 }
 </style>
