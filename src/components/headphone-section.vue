@@ -33,7 +33,7 @@
 .container {
   display: flex;
   justify-content: center;
-  padding-top: 8.5rem;
+  padding-top: 9.5rem;
 }
 
 .products-container {

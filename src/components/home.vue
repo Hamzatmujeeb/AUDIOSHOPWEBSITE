@@ -42,7 +42,7 @@
     padding: 1.875rem;
     display: flex;
     align-items: center;
-    width: 100rem;
+    width: 1440px;
     overflow: hidden;
   }
 
@@ -84,7 +84,7 @@
     position: absolute;
     width: 1.458rem;
     height: 0.989rem;
-    left: 91.281rem;
+    left: 80.281rem;
     top: 4.313rem;
     background: none;
   }

@@ -44,7 +44,7 @@
     width: 1190px;
     height: 560px;
     flex-shrink: 0;
-    top: 220%; 
+    top: 240%; 
     left: 51%; 
     transform: translate(-50%, -50%);
     background: #D87D4A;
