@@ -42,7 +42,7 @@
     padding: 1.875rem;
     display: flex;
     align-items: center;
-    width: 1600px;
+    width: 97.10%;
     overflow: hidden;
   }
 
