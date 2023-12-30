@@ -30,7 +30,7 @@ export default {
 .app {
   padding: 0;
   margin: 0;
-  width: 1440px;
+  width: 1500px;
   height:auto;
   flex-shrink: 0;
   overflow: hidden;
