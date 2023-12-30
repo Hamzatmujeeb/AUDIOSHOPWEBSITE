@@ -21,9 +21,8 @@
 <style scoped>
 .grid-container {
   display: grid;
-  grid-template-columns: 1fr 35rem;
-  gap: 40px;
-  padding-top: 110%;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 98%;
 }
 
 .content-column {
@@ -75,10 +74,9 @@
 }
 
 .image-column img {
-  width: 110%;
+  width: 60%;
   object-fit: contain;
   height: auto;
   border-radius: 10px;
-  margin: 70px;
 }
 </style>

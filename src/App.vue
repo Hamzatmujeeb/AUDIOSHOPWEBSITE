@@ -32,7 +32,6 @@ export default {
   margin: 0;
   width: 1670px;
   height:auto;
-  flex-shrink: 0;
   overflow: hidden;
   /* Add other global styles here */
 }
