@@ -2,27 +2,27 @@
     <div class="container">
       <div class="products-container">
         <div class="products-columns">
-          <img src="@/assets/Images/headphone.png" alt="Headphone 1">
+          <img src="@/assets/images/headphone.png" alt="Headphone 1">
           <h3>Headphone</h3>
           <div class="content">
             <p>Shop</p>
-            <img src="@/assets/Images/next.png" alt="" class="next">
+            <img src="@/assets/images/next.png" alt="" class="next">
           </div>
         </div>
         <div class="products-columns">
-          <img src="@/assets/Images/product-speaker.png" alt="Headphone 2">
+          <img src="@/assets/images/product-speaker.png" alt="Headphone 2">
           <h3>SPEAKERS</h3>
           <div class="content">
             <p>Shop</p>
-            <img src="@/assets/Images/next.png" alt="" class="next">
+            <img src="@/assets/images/next.png" alt="" class="next">
           </div>
         </div>
         <div class="products-columns">
-          <img src="@/assets/Images/bluetooth.png" alt="Headphone 3">
+          <img src="@/assets/images/bluetooth.png" alt="Headphone 3">
           <h3>EARPHONES</h3>
           <div class="content">
             <p>Shop</p>
-            <img src="@/assets/Images/next.png" alt="" class="next">
+            <img src="@/assets/images/next.png" alt="" class="next">
           </div>
         </div>
       </div>

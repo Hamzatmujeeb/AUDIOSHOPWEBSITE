@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="image-column">
-      <img src="@/assets/Images/john.png" alt="Audiophile Store">
+      <img src="@/assets/images/john.png" alt="Audiophile Store">
     </div>
   </section>
 </template>

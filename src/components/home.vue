@@ -6,7 +6,7 @@
   <div>
     <header>
       <div class="logo">
-        <img src="@/assets/Images/audiophile.png" alt="Logo">
+        <img src="@/assets/images/audiophile.png" alt="Logo">
       </div>
       <nav>
         <ul>
@@ -17,11 +17,11 @@
         </ul>
       </nav>
       <div class="cart-logo">
-        <img src="@/assets/Images/cart2-icon.png" alt="Logo">
+        <img src="@/assets/images/cart2-icon.png" alt="Logo">
       </div>
     </header>
     <div class="hr-line-conainer">
-      <img src="@/assets/Images/hr-line.png" alt="Logo" class="hr-line">
+      <img src="@/assets/images/hr-line.png" alt="Logo" class="hr-line">
     </div>
     <div class="container">
       <h2 class="new-product-text">NEW PRODUCT</h2>
@@ -30,7 +30,7 @@
       <div class="see-product">
         <button>See Product</button>
       </div>
-      <img src="@/assets/Images/black-headphone.png" alt="headphone" class="headphone-image" />
+      <img src="@/assets/images/black-headphone.png" alt="headphone" class="headphone-image" />
     </div>
   </div>
 </template>

@@ -2,7 +2,7 @@
     <footer>
     <div class="footer-container">
         <div class="footer-logo">
-        <img src="@/assets/Images/audiophile.png" alt="Logo">
+        <img src="@/assets/images/audiophile.png" alt="Logo">
       </div>
       <nav class="footer-nav">
         <ul>
@@ -18,9 +18,9 @@
           <br> days a week.
         </p>
         <div class="footer-social-media">
-          <a href="#"><img src="@/assets/Images/twitter.png" alt="Twitter"></a>
-          <a href="#"><img src="@/assets/Images/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="@/assets/Images/instagram.png" alt="Instagram"></a>
+          <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
+          <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
+          <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
         </div>
         <p class="footer-copy-right">&copy; 2023 Audiophile. All Rights Reserved.</p>
       </div>

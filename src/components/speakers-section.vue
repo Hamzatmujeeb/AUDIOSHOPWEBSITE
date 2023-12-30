@@ -2,7 +2,7 @@
   <div class="main-container">
     <div class="container">
       <div class="first-section">
-        <img src="@/assets/Images/big-speaker.png" class="product-images" alt="Speaker">
+        <img src="@/assets/images/big-speaker.png" class="product-images" alt="Speaker">
         <div class="container-text">
           <h2>ZX9<br />SPEAKER</h2>
         </div>
@@ -13,7 +13,7 @@
           <button>See Product</button>
         </div>
         <div class="small-speaker">
-          <img src="@/assets/Images/small-speaker.png" alt="">
+          <img src="@/assets/images/small-speaker.png" alt="">
           <h2 class="zx-text">ZX7 <br/>SPEAKER</h2>
           <div class="see-button-container">
             <button>See Product</button>
@@ -24,7 +24,7 @@
         <div class="custom-container">
           <div class="custom-grid">
             <div class="custom-left">
-              <img src="@/assets/Images/ipord.png" alt="">
+              <img src="@/assets/images/ipord.png" alt="">
             </div>
             <div class="custom-right">
               <h2>YX1 EARPHONES</h2>
