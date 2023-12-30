@@ -22,7 +22,7 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 98%;
+  padding-top: 100%;
 }
 
 .content-column {

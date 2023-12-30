@@ -30,7 +30,7 @@ export default {
 .app {
   padding: 0;
   margin: 0;
-  width: 1560px;
+  width: 1650px;
   height:auto;
   overflow: hidden;
   /* Add other global styles here */
