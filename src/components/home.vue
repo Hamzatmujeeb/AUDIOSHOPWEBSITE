@@ -84,7 +84,7 @@
     position: absolute;
     width: 1.458rem;
     height: 0.989rem;
-    left: 91.281rem;
+    left: 90.281rem;
     top: 4.313rem;
     background: none;
   }
