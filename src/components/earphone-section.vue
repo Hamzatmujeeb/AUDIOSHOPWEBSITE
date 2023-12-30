@@ -23,7 +23,7 @@
   display: grid;
   grid-template-columns: 1fr 51rem;
   position: absolute;
-  top: 3000px;
+  top: 3100px;
   gap: 5px;
 }
 
@@ -35,7 +35,7 @@
 
 .text-content {
   width: 80%;
-  margin-left: 250px;
+  margin-left: 220px;
 }
 
 .text-content h2 {
