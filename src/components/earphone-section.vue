@@ -35,7 +35,7 @@
 
 .text-content {
   width: 80%;
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 .text-content h2 {
@@ -75,11 +75,10 @@
   justify-content: center;
 }
 
-.image-column img {
-  width: 70%;
-  object-fit: contain;
-  height: 120%;
-  margin-right: -90px;
+img {
+  width: 67%;
+  height: auto;
+  margin-left: 150px;
   border-radius: 30px;
 }
 </style>
