@@ -42,7 +42,7 @@
   gap: 4.0625rem;
   padding: 4.375rem;
   place-content: center;
-  margin: 0 120px 0 150px;
+  margin: 0 120px 0 290px;
 }
 
 .products-columns {
