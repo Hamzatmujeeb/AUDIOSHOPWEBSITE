@@ -27,12 +27,4 @@ export default {
 
 <style scoped>
 /* Global styles for the initial section */
-.app {
-  padding: 0;
-  margin: 0;
-  width: 1650px;
-  height:auto;
-  overflow: hidden;
-  /* Add other global styles here */
-}
 </style>
