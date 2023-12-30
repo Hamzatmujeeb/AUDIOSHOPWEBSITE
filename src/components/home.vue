@@ -42,7 +42,7 @@
     padding: 1.875rem;
     display: flex;
     align-items: center;
-    max-width: 99.10%;
+    max-width: 99.450%;
     overflow: hidden;
   }
 
@@ -103,7 +103,7 @@
 
 .container {
     background: #000;
-    width: 1660px;
+    max-width:99.456;
     height: 729px;
     flex-shrink: 0;
     padding-top: 70px;
