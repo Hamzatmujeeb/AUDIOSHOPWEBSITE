@@ -1,37 +1,41 @@
 <template>
   <div class="app" id="app">
-    <Header />
+    <MainHeader />
     <Headphone />
     <Speaker />
     <Earphone />
-    <Footer></Footer>
+    <MainFooter />
   </div>
 </template>
 
 <script>
-import Header from "./components/home.vue";
-import Headphone from "./components/headphone-section.vue";
-import Speaker from "./components/speakers-section.vue";
-import Earphone from "./components/earphone-section.vue";
-import Footer   from "./components/footer.vue";
+import MainHeader from './components/MainHeader.vue'
+import Headphone from './components/headphone-section.vue'
+import Speaker from './components/speakers-section.vue'
+import Earphone from './components/earphone-section.vue'
+import MainFooter from './components/MainFooter.vue'
 export default {
   components: {
-    Header,
+    MainHeader,
     Headphone,
     Speaker,
     Earphone,
-    Footer
+    MainFooter
   }
-};
+}
 </script>
 
 <style scoped>
 /* Global styles for the initial section */
+body {
+  margin: 0;
+}
+
 .app {
   padding: 0;
   margin: 0;
   max-width: 99.678%;
-  height:auto;
+  height: auto;
   overflow: hidden;
   /* Add other global styles here */
 }
