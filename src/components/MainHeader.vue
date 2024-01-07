@@ -115,7 +115,7 @@ nav a {
   mix-blend-mode: lighten;
   scale: 1.2;
   position: relative;
-  top: -2.5rem;
+  top: -4.98rem;
 }
 
 .new-product-text {
