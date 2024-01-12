@@ -1,6 +1,6 @@
 <template>
   <div class="main-container">
-    <div class="container">
+    <div class="ZX9-container">
       <div class="first-section">
         <img src="@/assets/images/big-speaker.png" class="product-images" alt="Speaker">
         <div class="container-text">
@@ -39,24 +39,24 @@
 
 <style scoped>
 
- .container{
+ .ZX9-container{
     position: absolute;
-    width: 1190px;
-    height: 560px;
+    width: 75.375rem;
+    height: 35rem;
     flex-shrink: 0;
-    top: 240%; 
-    left: 51%; 
+    top: 220%; 
+    left: 50%; 
     transform: translate(-50%, -50%);
     background: #D87D4A;
-    border-radius: 8px;
+    border-radius: 0.5rem;
  }
 
  .product-images{       
     position: absolute;
     object-fit: contain;
-    width: 410.23px;
-    height: 393px;
-    left: 120.49px;
+    width: 25.639rem;
+    height: 24.563rem;
+    left: 2.968rem;
     top:165px;
     bottom:0;
  }
@@ -126,7 +126,7 @@
  }
 
  .small-speaker img {
-    width: 1190px;
+  width: 75.375rem;
    height: 320px;
    border-radius:8px;
  }
@@ -188,21 +188,20 @@
 }
 .custom-grid {
   display: grid;
-  grid-template-columns: 1fr 4rem;
-  grid-gap: 39px;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 29px;
 }
 
 .custom-left img {
-  width: 570px;
-  height: 360px;
+  width: 33.75rem;
+  height: 20.45rem;
   border-radius: 8px;
 }
 
 .custom-right {
   background-color: #f1f1f1;
-  padding: 20px;
-  width: 540px;
-  height: 320px;
+  width: 33.75rem;;
+  height: 20.45rem;
   border-radius: 8px;
 }
 

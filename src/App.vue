@@ -2,7 +2,7 @@
   <div class="app" id="app">
     <MainHeader />
     <Headphone />
-    <Speaker />
+    <Speaker ></Speaker>
     <Earphone />
     <MainFooter />
   </div>
@@ -20,7 +20,7 @@ export default {
     Headphone,
     Speaker,
     Earphone,
-    MainFooter
+    MainFooter 
   }
 }
 </script>
@@ -29,6 +29,7 @@ export default {
 /* Global styles for the initial section */
 body {
   margin: 0;
+  max-width: 99.678rem;
 }
 
 .app {
@@ -37,6 +38,7 @@ body {
   max-width: 99.678%;
   height: auto;
   overflow: hidden;
+  background: #FAFAFA;
   /* Add other global styles here */
 }
 </style>
