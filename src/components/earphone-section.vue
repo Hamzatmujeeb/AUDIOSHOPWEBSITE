@@ -32,7 +32,6 @@ section{
   justify-content: center;
   align-items: center;
   gap: 3.775rem;
-  background: #FAFAFA;
 }
 
 

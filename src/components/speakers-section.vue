@@ -2,6 +2,7 @@
   <div class="main-container">
     <div class="ZX9-container">
       <div class="first-section">
+        <div class="background-image"></div>
         <img src="@/assets/images/big-speaker.png" class="product-images" alt="Speaker">
         <div class="container-text">
           <h2>ZX9<br />SPEAKER</h2>
@@ -54,19 +55,31 @@
  .product-images{       
     position: absolute;
     object-fit: contain;
-    width: 25.639rem;
-    height: 24.563rem;
-    left: 2.968rem;
-    top:165px;
+    width: 25.63963rem;
+    height: 30.8125rem;
+    left: 7.968rem;
+    top:80.999px;
     bottom:0;
  }
+
+ .background-image {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    width: 69%;
+    height: 100%;
+    background-image: url('@/assets/images/oval-circle.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 0; /* Ensure it's behind other elements */
+  }
 
  .container-text{
    position: absolute;
    height: 116px;
    left: 57%;
    right: 0.21%;
-   top: calc(49% - 116px/2 - 93.5px);
+   top: calc(43% - 116px/2 - 93.5px);
    font-family: 'Manrope';
    font-style: normal;
    font-weight: 700;
@@ -82,7 +95,7 @@
   position: absolute;
   left: 57%;
   right: 0.21%;
-  top: 64.2%;
+  top: 60.2%;
   bottom: 29.04%;
   font-family: 'Manrope';
   font-style: normal;
@@ -188,19 +201,19 @@
 }
 .custom-grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  grid-gap: 29px;
+  grid-template-columns: 3fr 3fr;
+  grid-gap: 60px;
 }
 
 .custom-left img {
-  width: 33.75rem;
+  width: 35.75rem;
   height: 20.45rem;
   border-radius: 8px;
 }
 
 .custom-right {
   background-color: #f1f1f1;
-  width: 33.75rem;;
+  width: 35.75rem;;
   height: 20.45rem;
   border-radius: 8px;
 }
