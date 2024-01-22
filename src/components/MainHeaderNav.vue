@@ -12,26 +12,13 @@
           <li><router-link to="/headphone-page">Headphones</router-link></li>
           <li><router-link to="/speaker-page">Speakers</router-link></li>
           <li><router-link to="/earphone-page">Earphones</router-link></li>
+          <li><router-link to="/product-details-headphone">PDH</router-link></li>
         </ul>
       </nav>
       <div class="cart-logo">
         <img src="@/assets/images/cart2-icon.png" alt="Logo" />
       </div>
     </header>
-    <section class="container">
-      <div>
-        <h2 class="new-product-text">NEW PRODUCT</h2>
-        <h4>XX99 Mark II <br />Headphones</h4>
-        <p>
-          Experience natural, lifelike audio and exceptional<br />build quality made for the
-          passionate music<br />enthusiast.
-        </p>
-        <div class="see-product">
-          <button>See Product</button>
-        </div>
-      </div>
-      <img src="@/assets/images/black-headphone.png" alt="headphone" class="headphone-image" />
-    </section>
   </div>
 </template>
 
