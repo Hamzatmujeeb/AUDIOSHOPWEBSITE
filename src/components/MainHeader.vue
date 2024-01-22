@@ -8,10 +8,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
+         <li><router-link to="/home">Home</router-link></li>
+         <li><router-link to="/headphone">Headphones</router-link></li>
+         <li><router-link to="/speaker">Speakers</router-link></li>
+         <li><router-link to="/earphone">Earphones</router-link></li>
         </ul>
       </nav>
       <div class="cart-logo">
@@ -155,6 +155,7 @@ p {
 }
 
 button {
+  margin-top: 1.5rem;
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 600;
@@ -163,6 +164,7 @@ button {
   letter-spacing: 1px;
   text-transform: uppercase;
   background: #d87d4a;
+  border: none;
   padding: 10px 20px 30px 20px;
   height: 10px;
   color: #ffffff;

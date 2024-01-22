@@ -2,7 +2,7 @@
   <section class="centered-section">
     <div class="grid-container">
       <div class="grid-item">
-        <h2>Bringing you the <br><Span>best</Span> audio gear</h2>
+        <h2>Bringing you the <br><span>best</span> audio gear</h2>
         <p>Located at the heart of New York City, Audiophile is the premier<br>store for high-end 
           headphones, earphones, speakers, and audio<br>accessories.We have a large showroom and luxury<br>
            demonstration rooms available for you to browse and<br> experience a wide range of our
@@ -51,12 +51,12 @@ section{
 
 .grid-item span{
   color: #D87D4A;
-font-family: Manrope;
-font-size: 2.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: 2.75rem;
-letter-spacing: 0.08931rem;
+ font-family: Manrope;
+ font-size: 2.5rem;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 2.75rem;
+ letter-spacing: 0.08931rem;
 text-transform: uppercase;
 }
 .grid-item p{

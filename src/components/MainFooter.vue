@@ -24,7 +24,7 @@
         <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
         <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
     </div>
-    <P class="copy-right">Copyright 2021. All Rights Reserved</P>
+    <p class="copy-right">Copyright 2021. All Rights Reserved</p>
   </footer>
 </template>
 

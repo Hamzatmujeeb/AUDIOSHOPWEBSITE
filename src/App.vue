@@ -1,28 +1,29 @@
 <template>
   <div class="app" id="app">
-    <MainHeader />
-    <Headphone />
-    <Speaker ></Speaker>
+    <MainHeader></MainHeader>
+    <Headphones />
+    <Speakers />
     <Earphone />
     <MainFooter />
   </div>
 </template>
 
 <script>
-import MainHeader from './components/MainHeader.vue'
-import Headphone from './components/headphone-section.vue'
-import Speaker from './components/speakers-section.vue'
-import Earphone from './components/earphone-section.vue'
-import MainFooter from './components/MainFooter.vue'
+import MainHeader from './components/MainHeader.vue';
+import Headphones from './components/headphone-section.vue'; // Fix the typo
+import Speakers from './components/speakers-section.vue';
+import Earphone from './components/earphone-section.vue';
+import MainFooter from './components/MainFooter.vue';
+
 export default {
   components: {
     MainHeader,
-    Headphone,
-    Speaker,
+    MainFooter,
+    Headphones,
+    Speakers,
     Earphone,
-    MainFooter 
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
