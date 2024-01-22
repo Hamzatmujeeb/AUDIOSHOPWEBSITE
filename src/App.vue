@@ -1,32 +1,33 @@
+<script setup>
+import MainHeader from './components/MainHeader.vue';
+import Headphones from './components/headphone-section.vue';
+import Speakers from './components/speakers-section.vue';
+import Earphone from './components/earphone-section.vue';
+import MainFooter from './components/MainFooter.vue';
+import { createWebHistory, createRouter } from 'vue-router';
+
+// Create the router instance
+/*const router = createRouter({
+    history: createWebHistory(),
+    routes: [
+        { path: '/', component: Homepage },
+        { path: '/headphonePage', component: Heaphones },
+        { path: '/speakerPage', component: Speakers },
+        { path: '/earphonePage', component: Earphones }
+    ]
+});*/
+
+</script>
+
 <template>
   <div class="app" id="app">
-    <MainHeader>
-      <router-view></router-view>
-    </MainHeader>
+    <MainHeader />
     <Headphones />
     <Speakers />
     <Earphone />
     <MainFooter />
   </div>
 </template>
-
-<script>
-import MainHeader from './components/MainHeader.vue';
-import Headphones from './components/headphone-section.vue'; // Fix the typo
-import Speakers from './components/speakers-section.vue';
-import Earphone from './components/earphone-section.vue';
-import MainFooter from './components/MainFooter.vue';
-
-export default {
-  components: {
-    MainHeader,
-    MainFooter,
-    Headphones,
-    Speakers,
-    Earphone,
-  },
-};
-</script>
 
 <style scoped>
 /* Global styles for the initial section */

@@ -3,9 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 // Import your components
 import Homepage from '../components/MainHeader.vue'; // Adjust the path accordingly
-import Heaphones from '../view/heaphone-section-page.vue';
-import Speakers from '../view/speaker-section-page.vue';
-import Earphones from '../view/earphone-section-page.vue';
+import Heaphones from '../views/heaphone-section-page.vue';
+import Speakers from '../views/speaker-section-page.vue';
+import Earphones from '../views/earphone-section-page.vue';
 
 // Create the router instance
 const router = createRouter({
