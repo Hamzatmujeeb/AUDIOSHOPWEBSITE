@@ -1,6 +1,8 @@
 <template>
   <div class="app" id="app">
-    <MainHeader></MainHeader>
+    <MainHeader>
+      <router-view></router-view>
+    </MainHeader>
     <Headphones />
     <Speakers />
     <Earphone />

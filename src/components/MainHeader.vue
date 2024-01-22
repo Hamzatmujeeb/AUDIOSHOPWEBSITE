@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+
+</script>
 
 <template>
   <div class="main-header__wrapper">
@@ -8,11 +10,11 @@
       </div>
       <nav>
         <ul>
-         <li><router-link to="/home">Home</router-link></li>
-         <li><router-link to="/headphone">Headphones</router-link></li>
-         <li><router-link to="/speaker">Speakers</router-link></li>
-         <li><router-link to="/earphone">Earphones</router-link></li>
-        </ul>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/headphonePage">Headphones</router-link></li>
+        <li><router-link to="/speakerPage">Speakers</router-link></li>
+        <li><router-link to="/earphonePage">Earphones</router-link></li>
+       </ul>
       </nav>
       <div class="cart-logo">
         <img src="@/assets/images/cart2-icon.png" alt="Logo" />
