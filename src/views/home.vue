@@ -88,17 +88,6 @@ nav a {
   justify-self: end;
 }
 
-.hr-line-conainer {
-  width: 1.458rem;
-  height: 0px;
-}
-.hr-line-conainer img {
-  width: 1380px;
-  height: 1px;
-  flex-shrink: 2;
-  margin-left: 125px;
-}
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
