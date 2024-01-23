@@ -6,22 +6,7 @@
 <!--Body Wrapper-->
 <div class="body-wrapper">
  <div class="header-wrapper">
-  <header>
-    <div class="logo">
-     <img src="@/assets/images/audiophile.png" alt="Logo" />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li> 
-        </ul>
-      </nav>
-      <div class="cart-logo">
-        <img src="@/assets/images/cart2-icon.png" alt="Logo" />
-      </div>
-    </header>
+ 
     <h1 class="header-text">EARPHONES</h1>
   </div>
  </div>
@@ -93,31 +78,6 @@
     </div>
 </main>
 <!--Footer Section-->
-<div class="footer-wrapper">
-    <footer>
-        <div class="footer-logo-2">
-         <img src="@/assets/images/audiophile.png" alt="Logo">
-        </div>
-        <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-      <h4>Audiophile is an all in one stop to fulfill your audio needs. We're a small team<br>
-         of music lovers and sound specialists who are devoted to helping you get the<br> most out of personal 
-         audio. Come and visit our demo facility - we’re open 7<br> days a week.</h4>
-      <div class="footer-social-media">
-        <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
-    </div>
-
-    <P class="copy-right">Copyright 2021. All Rights Reserved</P>
-    </footer>
-</div>
 </template>
 
 <style scoped>
@@ -131,59 +91,12 @@
       background: #000;
       height: 21rem;
     }
-
-    header {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      align-items: center;
-      margin: 0 auto;
-      max-width: 1440px;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .logo {
-      display: flex;
-      align-items: center;
-    }
-
-    .logo img {
-      width: 8.9375rem;
-      height: 1.5625rem;
-    }
-
-    nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 2.19rem 0;
-    }
-
-    nav li {
-      display: inline;
-      margin: 2.4rem;
-    }
-
-    nav a {
-      color: #FFF;
-      font-size: 0.8125rem;
-      font-weight: 700;
-      line-height: 1.5625rem;
-      letter-spacing: 0.125rem;
-      text-transform: uppercase;
-      text-decoration: none;
-    }
-
-    .cart-logo {
-      width: 1.458rem;
-      height: 0.989rem;
-      background: none;
-      justify-self: end;
-    }
-
     /* Speakers Section */
     .header-wrapper .header-text {
       color: #fff;
       text-align: center;
-      margin-top: 6.44rem;
+      margin:0;
+      padding-top: 8.44rem;
       margin-bottom: 6.06rem;
       font-size: 2.5rem;
       font-weight: 700;

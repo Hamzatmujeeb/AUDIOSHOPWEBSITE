@@ -48,8 +48,7 @@
             >Enjoy your audio almost anywhere and customize it to your<br />
             specific tastes with the XX59 headphones. The stylish yet<br />
             durable versatile wireless headset is a brilliant companion at<br />
-            home or on the move.</P
-          >
+            home or on the move.</P>
           <button class="see-product-button">See Product</button>
         </div>
       </div>

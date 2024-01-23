@@ -6,22 +6,6 @@
 <div class="body-style">
   <!--Header Section-->
  <div class="header__wrapper__speaker">
-    <header>
-      <div class="logo">
-        <img src="@/assets/images/audiophile.png" alt="Logo" />
-     </div>
-     <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-      <div class="cart-logo">
-        <img src="@/assets/images/cart2-icon.png" alt="Logo" />
-      </div>
-    </header>
     <h1 class="header-speaker-text">SPEAKERS</h1>
  </div>
  <div class="IIHeadphones-container">
@@ -102,30 +86,7 @@
 </main>
 
 <!--Footer Html-->
- <div class="footer-wrapper">
-   <footer>
-    <div class="footer-logo">
-      <img src="@/assets/images/audiophile.png" alt="Logo">
-    </div>
-    <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-      <h4 class="footer-text">Audiophile is an all in one stop to fulfill your audio needs. We're a small team<br>
-         of music lovers and sound specialists who are devoted to helping you get the<br> most out of personal 
-         audio. Come and visit our demo facility - we’re open 7<br> days a week.</h4>
-      <div class="footer-social-media">
-        <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
-    </div>
-    <P class="copy-right">Copyright 2021. All Rights Reserved</P>
-   </footer>
- </div>
+ 
 </div>
 </template>
 
@@ -137,73 +98,19 @@
     box-sizing: border-box;
     font-family: Manrope;
  }
-  .header__wrapper__speaker{
-    background: #000;
-    height: 23rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  header{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items:center;
-    margin: 0 auto;
-    max-width: 1440px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
- }
-
- .logo {
-  display: flex;
-  align-items: center;
-}
-
-.logo img{
-    width: 8.9375rem;
-    height: 1.5625rem;
-}
-
-nav ul {
-   list-style: none;
-   padding: 0;
-   margin: 2.19rem 0;
-}
-
-nav li{
-    display: inline;
-    margin: 2.4rem;
-}
-
-nav a{
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 0.8125rem;
-    font-style: normal;
-   font-weight: 700;
-   line-height: 1.5625rem; /* 192.308% */
-   letter-spacing: 0.125rem;
-   text-transform: uppercase;
-   text-decoration: none;
-}
-
-.cart-logo{
-    width: 1.458rem;
-    height: 0.989rem;
-    background: none;
-    justify-self: end;
-}
 
 .header__wrapper__speaker .header-speaker-text{
+  background: #000;
     color: #fff;
     text-align: center;
-    margin-top: 8.44rem;
-    margin-bottom: 6.06rem;
+    margin:0;
+    padding: 8.44rem;
     font-family: Manrope;
-   font-size: 2.5rem;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 2.75rem; /* 110% */
-  letter-spacing: 0.08931rem;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.75rem; /* 110% */
+    letter-spacing: 0.08931rem;
    text-transform: uppercase
 }
 

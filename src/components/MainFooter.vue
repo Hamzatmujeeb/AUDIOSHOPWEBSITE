@@ -31,19 +31,18 @@
 <style scoped>
 .footer__wrapper {
   background: #101010; 
+  margin-top: 10rem;
 }
 
 footer {
-  position: absolute;
-  top: 3900px;
   color: #fff;;
   display: flex;;
   flex-direction: column; 
   align-items: center;
-  width:104.3879rem; 
 }
 
 .footer-container {
+  margin-top: 10rem;
   display: grid;
   grid-template-columns: auto 1fr; 
   align-items: center;
