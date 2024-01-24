@@ -1,7 +1,6 @@
 <script setup></script>
-
 <template>
-  <div class="main-header__wrapper">
+  <div class="main-header__wrapper" :class="{ 'header1': isHeader1, 'header2': isHeader2 }">
     <header>
       <div class="logo">
         <img src="@/assets/images/audiophile.png" alt="Logo" />
@@ -27,7 +26,9 @@
           passionate music<br />enthusiast.
         </p>
         <div class="see-product">
-          <button>See Product</button>
+          <router-link to="/product-details-headphone">
+            <button>See Product</button>
+          </router-link>
         </div>
       </div>
       <img src="@/assets/images/black-headphone.png" alt="headphone" class="headphone-image" />

@@ -7,10 +7,10 @@
 
       <nav class="footer-nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">HEADPHONES</a></li>
-          <li><a href="#">SPEAKERS</a></li>
-          <li><a href="#">EARPHONES</a></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/headphone-page">Headphones</router-link></li>
+          <li><router-link to="/speaker-page">Speakers</router-link></li>
+          <li><router-link to="/earphone-page">Earphones</router-link></li>
         </ul>
       </nav>
     </div>

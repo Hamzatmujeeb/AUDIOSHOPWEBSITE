@@ -15,16 +15,16 @@
       <div class="IIHeadphones-column-2">
         <h2>NEW PRODUCT</h2>
         <h1>ZX9<br>SPEAKER</h1>
-        <P>Upgrade your sound system with the all new ZX9 active<br> speaker. 
-            It’s a bookshelf speaker system that offers truly<br> wireless connectivity -- creating new possibilities for more<br> pleasing and practical audio setups.</P>
+        <p>Upgrade your sound system with the all new ZX9 active<br> speaker. 
+            It’s a bookshelf speaker system that offers truly<br> wireless connectivity -- creating new possibilities for more<br> pleasing and practical audio setups.</p>
         <button class="see-product-button">See Product</button>
       </div>
     </div>
     <div class="IIHeadphones-container">
       <div class="IIHeadphones-column-ZX7">
         <h1>ZX7<br>SPEAKER</h1>
-        <P class="IIHeadphones-column-ZX7-paragraph">Stream high quality sound wirelessly with minimal loss. The ZX7<br> bookshelf speaker uses high-end audiophile 
-            components that<br> represents the top of the line powered speakers for home or<br> studio use.</P>
+        <p class="IIHeadphones-column-ZX7-paragraph">Stream high quality sound wirelessly with minimal loss. The ZX7<br> bookshelf speaker uses high-end audiophile 
+            components that<br> represents the top of the line powered speakers for home or<br> studio use.</p>
         <button class="see-product-button">See Product</button>
       </div>
       <div class="IIHeadphones-column-1">

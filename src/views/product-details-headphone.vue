@@ -1,25 +1,8 @@
 <script>
 
 </script>
-
 <template>
  <div class="details-header-wrapper">
-   <header>
-     <div class="header-logo">
-      <img src="@/assets/images/audiophile.png" alt="Logo" />
-     </div>
-     <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-    <div class="cart-logo">
-      <img src="@/assets/images/cart2-icon.png" alt="Logo" />
-    </div>
-   </header>
  </div>
  <div class="go-back">
   <!--Go back-->
@@ -179,31 +162,6 @@
       </div>
     </div>
 </main>
-<div class="footer-wrapper">
-    <footer>
-        <div class="footer-logo-2">
-         <img src="@/assets/images/audiophile.png" alt="Logo">
-        </div>
-        <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-      <h4>Audiophile is an all in one stop to fulfill your audio needs. We're a small team<br>
-         of music lovers and sound specialists who are devoted to helping you get the<br> most out of personal 
-         audio. Come and visit our demo facility - we’re open 7<br> days a week.</h4>
-      <div class="footer-social-media">
-        <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
-    </div>
-
-    <P class="copy-right">Copyright 2021. All Rights Reserved</P>
-    </footer>
-</div>
 </template>
 
 <style scoped>

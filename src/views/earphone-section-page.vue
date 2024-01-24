@@ -18,8 +18,8 @@
       <div class="IIHeadphones-earphone-column-2">
         <h2>NEW PRODUCT</h2>
         <h1>ZX9<br>SPEAKER</h1>
-        <P>Upgrade your sound system with the all new ZX9 active<br> speaker. 
-            It’s a bookshelf speaker system that offers truly<br> wireless connectivity -- creating new possibilities for more<br> pleasing and practical audio setups.</P>
+        <p>Upgrade your sound system with the all new ZX9 active<br> speaker. 
+            It’s a bookshelf speaker system that offers truly<br> wireless connectivity -- creating new possibilities for more<br> pleasing and practical audio setups.</p>
         <button class="see-product-button-earphone">See Product</button>
       </div>
     </div>

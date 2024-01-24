@@ -26,12 +26,10 @@
       <div class="IIHeadphones-container">
         <div class="IIHeadphones-column-2">
           <h1 class="XX99-Mark-I">XX99 Mark I<br />Headphones</h1>
-          <P
-            >As the gold standard for headphones, the classic XX99 Mark<br />
+          <p>As the gold standard for headphones, the classic XX99 Mark<br />
             I offers detailed and accurate audio reproduction for <br />audiophiles, mixing
             engineers, and music aficionados alike in<br />
-            studios and on the go.</P
-          >
+            studios and on the go.</p>
           <button class="see-product-button">See Product</button>
         </div>
         <div class="IIHeadphones-column-1">
@@ -44,11 +42,10 @@
         </div>
         <div class="IIHeadphones-column-2">
           <h1 class="XX99-Mark-I">XXX59</h1>
-          <P
-            >Enjoy your audio almost anywhere and customize it to your<br />
+          <p>Enjoy your audio almost anywhere and customize it to your<br />
             specific tastes with the XX59 headphones. The stylish yet<br />
             durable versatile wireless headset is a brilliant companion at<br />
-            home or on the move.</P>
+            home or on the move.</p>
           <button class="see-product-button">See Product</button>
         </div>
       </div>
