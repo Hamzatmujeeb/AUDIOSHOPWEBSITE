@@ -1,135 +1,124 @@
 <template>
-    <footer>
+  <footer class="footer__wrapper">
     <div class="footer-container">
-        <div class="footer-logo">
+      <div class="footer-logo">
         <img src="@/assets/images/audiophile.png" alt="Logo">
       </div>
+
       <nav class="footer-nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">HEADPHONES</a></li>
-          <li><a href="#">SPEAKERS</a></li>
-          <li><a href="#">EARPHONES</a></li>
+          <li><router-link to="/">Home</router-link></li>
+          <li><router-link to="/headphone-page">Headphones</router-link></li>
+          <li><router-link to="/speaker-page">Speakers</router-link></li>
+          <li><router-link to="/earphone-page">Earphones</router-link></li>
         </ul>
       </nav>
-        <p class="footer-description">Audiophile is an all in one stop to fulfill your audio needs. We're a small team<br>
-          of music lovers and sound specialists who are devoted to helping you get the 
-          <br>most out of personal audio. Come and visit our demo facility - we’re open 7
-          <br> days a week.
-        </p>
-        <div class="footer-social-media">
-          <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
-          <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
-          <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
-        </div>
-        <p class="footer-copy-right">&copy; 2023 Audiophile. All Rights Reserved.</p>
-      </div>
-    </footer>
-  </template>
-  
-  <style>
-    footer {
-      position: absolute;
-      width: 95.10%;
-      height: 365px;
-      left: 10px;
-      top: 3890px;
-      background: #000;
-      color: #fff;
-      padding: 30px;
-      display: flex;
-      align-items: center;
-    }
-    footer .footer-container {
-    display: flex; /* Enable Flexbox */
-    justify-content: space-between; /* Distribute elements with spacing */
-    align-items: center; /* Vertical alignment */
-    flex-wrap: wrap;
-  }
+    </div>
+    <div class="footer-content">
+      <h5>Audiophile is an all in one stop to fulfill your audio needs.
+         We're a small team<br> of music lovers and sound specialists who are devoted to helping
+         you get the<br> most out of personal audio. Come and visit our demo facility - we’re open 7<br> days a week.</h5>
+    </div>
+    <div class="footer-social-media">
+        <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
+        <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
+    </div>
+    <p class="copy-right">Copyright 2021. All Rights Reserved</p>
+  </footer>
+</template>
 
-  
-  footer .footer-logo img {
-      position: absolute;
-      left: 10%;
-      right: 0%;
-      top: 10%;
-      bottom: 0%;
-    }
-  
-    footer .footer-nav ul {
-      list-style: none;
-      margin: -170px 77%;
-      padding: 0;
-    }
-  
-    footer .footer-nav li {
-      display: inline;
-      margin: 57px;
-    }
-  
-    .footer-nav a {
-      text-decoration: none;
-      font-family: 'Manrope';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 13px;
-      line-height: 25px;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #FFFFFF;
-    }
-    footer .footer-description {
-    text-align: left; /* Align text to the left */
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 25px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-    width: 50%; /* Adjust width if needed */
-    position: absolute;
-    left: 10%;
-    top: 120px; /* Adjust top positioning */
-  }
-  
-    footer .footer-social-media {
-      position: absolute;
-      top: 210px;
-      width: 24px;
-      height: 24px;
-      left: 72%;
-      display: flex;
-      align-items: center;
-    }
-  
-    footer .footer-social-media a {
-      color: #fff;
-      margin: 15px;
-    }
-  
-    footer .footer-social-media a:hover {
-      color: #aaa;
-    }
-  
-    .footer-social-media i {
-      font-size: 24px;
-    }
-  
-    footer .footer-copy-right {
-      position: absolute;
-      top: 79%;
-      bottom: 0%;
-      left: 10%;
-      font-family: 'Manrope';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 15px;
-      line-height: 25px;
-      color: #FFFFFF;
-      mix-blend-mode: normal;
-      opacity: 0.5;
-    }
-  </style>
-  
+<style scoped>
+.footer__wrapper {
+  background: #101010; 
+  margin-top: 10rem;
+}
+
+footer {
+  color: #fff;;
+  display: flex;;
+  flex-direction: column; 
+  align-items: center;
+}
+
+.footer-container {
+  margin-top: 10rem;
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  align-items: center;
+  gap: 1.25rem; 
+  margin-top: 4.69rem;
+}
+
+footer .footer-logo img {
+  width: 8.9375rem;
+  height: 1.5625rem;
+  margin-right: 31rem;
+  flex-shrink: 0;
+}
+
+footer .footer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; 
+  display: flex; 
+}
+
+footer .footer-nav li {
+  margin: 0 1.25rem; 
+}
+
+.footer-nav a {
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 0.8125rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5625rem; /* 192.308% */
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer .footer-content{
+  width: 33.75rem;
+  margin:2.2rem 45.95rem 0 8em ;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5625rem; /* 166.667% */
+  opacity: 0.5;
+}
+
+footer .copy-right{
+  width: 33.75rem;
+  text-align: left;
+  margin-right: 49.4rem;
+  margin-left: 10.31rem;
+  margin-top: 3.5rem;
+  margin-bottom: 3rem;
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 0.9375rem;
+  font-style: normal;
+ font-weight: 700;
+ line-height: 1.5625rem;
+ opacity: 0.5;
+}
+
+.footer-social-media{
+  width: 1.5rem;
+  height: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-left: 46.12rem;
+  margin-right: -1.31rem;
+  z-index: 3;
+  fill: #FFF;
+  cursor: pointer;
+  margin-top: -3.866rem; 
+}
+</style>

@@ -1,7 +1,16 @@
-<script setup></script>
+<script setup>
+const switchHeaders = () => {
+  isHeader1.value = !isHeader1.value;
+  isHeader2.value = !isHeader2.value;
+  // Toggle between Home and Headphones pages
+  const nextRoute = isHeader1.value ? '/' : '/headphone-page';
+  router.push(nextRoute);
+};
+</script>
+
 <template>
-  <div class="main-header__wrapper" :class="{ 'header1': isHeader1, 'header2': isHeader2 }">
-    <header>
+  <div class="main-header__wrapper">
+    <header :class="{ 'header1': isHeader1, 'header2': isHeader2 }">
       <div class="logo">
         <img src="@/assets/images/audiophile.png" alt="Logo" />
       </div>
@@ -11,32 +20,33 @@
           <li><router-link to="/headphone-page">Headphones</router-link></li>
           <li><router-link to="/speaker-page">Speakers</router-link></li>
           <li><router-link to="/earphone-page">Earphones</router-link></li>
+          <li><router-link to="/product-details-headphone">PDH</router-link></li>
         </ul>
       </nav>
       <div class="cart-logo">
         <img src="@/assets/images/cart2-icon.png" alt="Logo" />
       </div>
     </header>
-    <section class="container">
-      <div>
-        <h2 class="new-product-text">NEW PRODUCT</h2>
-        <h4>XX99 Mark II <br />Headphones</h4>
-        <p>
-          Experience natural, lifelike audio and exceptional<br />build quality made for the
-          passionate music<br />enthusiast.
-        </p>
-        <div class="see-product">
-          <router-link to="/product-details-headphone">
-            <button>See Product</button>
-          </router-link>
-        </div>
-      </div>
-      <img src="@/assets/images/black-headphone.png" alt="headphone" class="headphone-image" />
-    </section>
   </div>
 </template>
 
 <style scoped>
+/* Add this to change the header color when on specific pages */
+/* Add this to change the header color when on specific pages */
+body.route-Home .main-header__wrapper header {
+   background: #141414;; /* Set the background color for the first header */
+   width: 100%; /* Maintain the same width as the header-wrapper */
+}
+
+body.route-Headphones .main-header__wrapper header,
+body.route-Earphones .main-header__wrapper header,
+body.route-Speakers .main-header__wrapper header,
+body.route-ProductDetailsHeadphone .main-header__wrapper header{
+   background: #000; /* Set the background color for the second header and other applicable pages */
+   width: 100%; /* Maintain the same width as the header-wrapper */
+}
+
+
 /* Main header styles */
 header {
   color: #fff;
@@ -92,16 +102,6 @@ nav a {
   justify-self: end;
 }
 
-.hr-line-conainer {
-  width: 1.458rem;
-  height: 0px;
-}
-.hr-line-conainer img {
-  width: 1380px;
-  height: 1px;
-  flex-shrink: 2;
-  margin-left: 125px;
-}
 
 .container {
   max-width: 1440px;
@@ -110,6 +110,7 @@ nav a {
   align-items: center;
   gap: 3.04rem;
 }
+
 .headphone-image {
   object-fit: contain;
   margin: 0 auto;

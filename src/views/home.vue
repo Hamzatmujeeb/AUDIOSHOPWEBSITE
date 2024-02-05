@@ -1,22 +1,12 @@
-<script setup></script>
+<script setup>
+import Headphone from '../components/headphone-section.vue'
+import Speaker from '../components/speakers-section.vue'
+import Earphone from '../components/earphone-section.vue'
+</script>
+
 <template>
-  <div class="main-header__wrapper" :class="{ 'header1': isHeader1, 'header2': isHeader2 }">
-    <header>
-      <div class="logo">
-        <img src="@/assets/images/audiophile.png" alt="Logo" />
-      </div>
-      <nav>
-        <ul>
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/headphone-page">Headphones</router-link></li>
-          <li><router-link to="/speaker-page">Speakers</router-link></li>
-          <li><router-link to="/earphone-page">Earphones</router-link></li>
-        </ul>
-      </nav>
-      <div class="cart-logo">
-        <img src="@/assets/images/cart2-icon.png" alt="Logo" />
-      </div>
-    </header>
+  <div class="home-body-wrapper">
+    <div class="main-header__wrapper">
     <section class="container">
       <div>
         <h2 class="new-product-text">NEW PRODUCT</h2>
@@ -26,17 +16,23 @@
           passionate music<br />enthusiast.
         </p>
         <div class="see-product">
-          <router-link to="/product-details-headphone">
-            <button>See Product</button>
-          </router-link>
+          <button>See Product</button>
         </div>
       </div>
       <img src="@/assets/images/black-headphone.png" alt="headphone" class="headphone-image" />
     </section>
   </div>
+  <Headphone />
+  <Speaker />
+  <Earphone />
+  </div>
 </template>
 
 <style scoped>
+/* Global styles for the initial section */
+.home-body-wrapper{
+  height: 229.875rem;
+}
 /* Main header styles */
 header {
   color: #fff;
@@ -90,17 +86,6 @@ nav a {
   height: 0.989rem;
   background: none;
   justify-self: end;
-}
-
-.hr-line-conainer {
-  width: 1.458rem;
-  height: 0px;
-}
-.hr-line-conainer img {
-  width: 1380px;
-  height: 1px;
-  flex-shrink: 2;
-  margin-left: 125px;
 }
 
 .container {

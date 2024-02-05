@@ -1,84 +1,78 @@
 <template>
-  <section class="grid-container">
-    <div class="content-column">
-      <div class="text-content">
-        <h2>Bringing you the<br> <span>best</span> audio gear</h2>
-        <p>Located at the heart of New York City, Audiophile is the premier<br>
-           store for high-end headphones, earphones, speakers, and audio<br>
-           accessories. We have a large showroom and luxury<br>
-           demonstration rooms available for you to browse and<br>
-           experience a wide range of our products. Stop by our store to<br>
-           meet some of the fantastic people who make Audiophile<br>
-           the best place to buy your portable audio equipment.</p>
+  <section class="centered-section">
+    <div class="grid-container">
+      <div class="grid-item">
+        <h2>Bringing you the <br><span>best</span> audio gear</h2>
+        <p>Located at the heart of New York City, Audiophile is the premier<br>store for high-end 
+          headphones, earphones, speakers, and audio<br>accessories.We have a large showroom and luxury<br>
+           demonstration rooms available for you to browse and<br> experience a wide range of our
+           products. Stop by our store to<br>meet some of the fantastic people who make Audiophile
+           the<br>best place to buy your portable audio equipment.</p>
       </div>
-    </div>
-    <div class="image-column">
-      <img src="@/assets/images/john.png" alt="Audiophile Store">
+      <div class="grid-item"> 
+        <img src="@/assets/images/john.png" alt="Audiophile Store">
+      </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 51rem;
+section{
+   max-width: 92rem;
+}
+.centered-section {
   position: absolute;
-  top: 3100px;
-  gap: 5px;
+  top: 210.1rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.content-column {
+.grid-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 3.775rem;
 }
 
-.text-content {
-  width: 80%;
-  margin-left: 200px;
-}
 
-.text-content h2 {
+/* Optional styling for the columns */
+.grid-item h2 {
+  width: 27.8125rem;
   color: #000;
   font-family: Manrope;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 44px; /* 110% */
-  letter-spacing: 1.429px;
+  line-height: 2.75rem; /* 110% */
+  letter-spacing: 0.08931rem;
   text-transform: uppercase;
+  margin-right: 150px;
 }
 
-.text-content span {
+.grid-item span{
   color: #D87D4A;
-  font-family: Manrope;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 1.429px;
-  text-transform: uppercase;
+ font-family: Manrope;
+ font-size: 2.5rem;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 2.75rem;
+ letter-spacing: 0.08931rem;
+text-transform: uppercase;
 }
-
-.text-content p {
-  font-family: 'Manrope';
+.grid-item p{
+  width: 28.8125rem;
+  color: #000;
+  font-family: Manrope;
+  font-size: 0.9375rem;
+  font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: 25px;
-  color: #000000;
+  line-height: 1.5625rem;
   opacity: 0.5;
 }
 
-.image-column {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-img {
-  width: 67%;
-  height: auto;
-  margin-left: 150px;
-  border-radius: 30px;
+.grid-item img{
+  width: 33.75rem;
+  height: 36.75rem;
+  border-radius: 0.75rem;
 }
 </style>

@@ -1,114 +1,109 @@
 <template>
-    <div class="container">
-      <div class="products-container">
-        <div class="products-columns">
-          <img src="@/assets/images/headphone.png" alt="Headphone 1">
-          <h3>Headphone</h3>
-          <div class="content">
-            <p>Shop</p>
-            <img src="@/assets/images/next.png" alt="" class="next">
+  <section class="section__wrapper">
+    <div class="section__wrapper__container">
+      <div class="Section__column">
+        <img src="@/assets/images/headphone.png" alt="Headphone 1" class="product__img">
+        <div class="product__name">
+          <h2>HEADPHONES</h2>
+          <div class="shop-container">
+            <p class="shop">Shop</p>
+            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
           </div>
         </div>
-        <div class="products-columns">
-          <img src="@/assets/images/product-speaker.png" alt="Headphone 2">
-          <h3>SPEAKERS</h3>
-          <div class="content">
-            <p>Shop</p>
-            <img src="@/assets/images/next.png" alt="" class="next">
+      </div>
+
+      <div class="Section__column">
+        <img src="@/assets/images/product-speaker.png" alt="Headphone 2" class="product__img">
+        <div class="product__name">
+          <h2>HEADPHONES</h2>
+          <div class="shop-container">
+            <p class="shop">Shop</p>
+            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
           </div>
         </div>
-        <div class="products-columns">
-          <img src="@/assets/images/bluetooth.png" alt="Headphone 3">
-          <h3>EARPHONES</h3>
-          <div class="content">
-            <p>Shop</p>
-            <img src="@/assets/images/next.png" alt="" class="next">
+      </div>
+
+      <div class="Section__column">
+        <img src="@/assets/images/bluetooth.png" alt="Headphone 3" class="product__img">
+        <div class="product__name">
+          <h2>HEADPHONES</h2>
+          <div class="shop-container">
+            <p class="shop">Shop</p>
+            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
           </div>
         </div>
       </div>
     </div>
-  </template>
-  
-  <style scoped>
-.container {
+  </section>
+</template>
+
+<style scoped>
+.section__wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 9.5rem;
+  align-items: center;
+  background-color: #FAFAFA; 
+  height: 40rem;
 }
 
-.products-container {
-  display: grid;
-  grid-template-columns: repeat(3, 22rem);
-  gap: 4.0625rem;
-  padding: 4.375rem;
-  place-content: center;
-  margin: 0 120px 0 190px;
+.section__wrapper__container {
+  display: flex;
+  justify-content: space-around; 
+  width: 80rem;
 }
 
-.products-columns {
+.Section__column {
+  flex: 0 0 calc(30% - 10px);
+  height: 15.75rem;
+  width: 15.875rem;
   text-align: center;
-  background-color: #F1F1F1;
-  position: relative;
-  z-index: 1;
-  width: 350px;
-  height: 204px;
-  flex-shrink: 0;
+  background: #F1F1F1;
   border-radius: 0.5rem;
 }
 
-.products-columns img {
-  width: 122.947px;
-  height: 160px;
+.Section__column .product__img {
+  position: relative; 
+  flex: 0 0 calc(30% - 5px);
+  top: -70px;
+  z-index: 1;
+  width: 11.125rem;
+  height: 10.0625rem;
+  flex-shrink: 0;
   object-fit: contain;
-  position: absolute;
-  bottom: 8.625rem;
-  left: 50%;
-  transform: translateX(-60%);
-  z-index: -1;
 }
 
-.products-columns h3 {
-  margin: 90px;
+.product__name {
+  position: relative;
+}
+
+.shop-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between <p> and <img> */
+}
+
+.product__name h2 {
+  margin-top: -15px;
   color: #000;
   text-align: center;
-  font-family: Manrope;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 1.286px;
+  letter-spacing: 0.08038rem;
   text-transform: uppercase;
 }
 
-.content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
-  bottom: 1.625rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.products-columns p {
-  margin-bottom: 2px;
+p.shop {
   color: #000;
-  font-family: Manrope;
-  font-size: 13px;
+  margin-top: 11px;
+  font-size: 0.8125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
   text-transform: uppercase;
   opacity: 0.5;
-  margin-right: 5px; /* Adjust the space between p tag and next button */
 }
-
-.content .next {
-    width: 0.438rem;
-    height:0.625rem;
-    margin-bottom: -8.26rem;
-    margin-left:2.188rem;
-    cursor: pointer;
-  }
 </style>
