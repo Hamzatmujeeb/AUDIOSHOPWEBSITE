@@ -13,14 +13,14 @@
     <div class="XXX9-wrapper">
       <div class="XXX9-wrapper-container">
         <div class="XXX9-container-column-one">
-          <img src="@/assets/images/blackheadphone2.png" alt="Logo" />
-          <div class="oval-circle"></div>
+          <img src="@/assets/images/white-headphone.png" alt="white-headphone" />
+          <div class="oval-round"></div>
         </div>
         <div class="XXX9-container-column-two">
-          <h4 class="new-product">NEW PRODUCT</h4>
-          <h1 class="XXX9-header">XX99 Mark I<br>Headphones</h1>
-          <p class="XXX9-text">As the gold standard for headphones, the classic XX99 Mark I<br> offers detailed and accurate audio reproduction for<br> audiophiles, mixing engineers, and music aficionados alike in<br> studios and on the go. </p>
-          <h3 class="price">$ 2,999</h3>
+          <h1 class="XXX9-header">XX59 <br>Headphones</h1>
+          <p class="XXX9-text">Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. The stylish yet durable 
+            versatile wireless headset is a brilliant companion at home or on the move.</p>
+          <h3 class="price">$ 899</h3>
           <div class="XXX9-buttons">
             <button class="number-button">+&nbsp;<span class="one">1</span>&nbsp;-&nbsp;</button> <button class="cart-button">ADD TO CART</button>
           </div>
@@ -34,14 +34,11 @@
       <div class="features-wrapper-container">
         <div class="features-container-column-one">
           <h1 class="features-in-box-text">FEATURES</h1>
-          <p class="features-text">Featuring a genuine leather head strap and premium earcups, these headphones deliver<br> superior
-             comfort for those who like to enjoy endless listening. It includes intuitive controls<br> designed for 
-             any situation. Whether you’re taking a business call or just in your own<br> personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
-             <br><br><br>
-           The advanced Active Noise Cancellation with built-in equalizer allow you to experience<br> your audio world on your terms.
-            It lets you enjoy your audio in peace, but quickly interact<br> with your surroundings when you need to. Combined with 
-            Bluetooth 5. 0 compliant<br> connectivity and 17 hour battery life, the XX99 Mark II 
-           headphones gives you superior<br> sound, cutting-edge technology, and a modern design aesthetic.  </p>
+          <p class="features-text">These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission
+             is assured by the latest wireless technology engineered for audio synchronization with videos.
+              <br><br>
+            More than a simple pair of 
+            headphones, this headset features a pair of built-in microphones for clear, hands-free calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an impressive 30-hour battery life that can be rapidly recharged via USB-C.  </p>
         </div>
         <div class="features-container-column-two">
           <h1 class="features-in-box-text">in the box</h1>
@@ -60,10 +57,6 @@
             <h3 class="X-text">1x</h3> 
             <h4>3.5mm 5m Audio Cable</h4>
           </div>
-          <div class="in-box-text">
-            <h3 class="X-text">1x</h3> 
-            <h4>Travel Bag</h4>
-          </div>
         </div>
       </div>
     </div>
@@ -72,11 +65,11 @@
   <section>
     <div class="gallery-container">
     <div class="grid-item">
-      <img src="@/assets/images/john2.png" alt="john2"  class="column-images-one" />
-      <img src="@/assets/images/gallery1.png" alt="gallery-1" class="column-images-one second-image" />
+      <img src="@/assets/images/gallery16.png" alt="john2"  class="column-images-one" />
+      <img src="@/assets/images/gallery6.png" alt="gallery-1" class="column-images-one second-image" />
     </div>
     <div class="grid-item2">
-      <img src="@/assets/images/gallery5.png" alt="gallery2" class="column-images-two"/>
+      <img src="@/assets/images/gallery7.png" alt="gallery2" class="column-images-two"/>
     </div>
   </div>
   </section>
@@ -172,6 +165,13 @@
 
 <style scoped>
 
+.cart-logo{
+    width: 1.458rem;
+    height: 0.989rem;
+    background: none;
+    justify-self: end;
+}
+
 /**Go back Style */
 .go-back{
   margin: 4.94rem 0 0 13.31rem;
@@ -210,12 +210,12 @@
   margin-left : auto;
   margin-right: auto;
   display: block;
-  margin-top:4.275rem;
+  margin-top:4.25rem;
   object-fit: contain;
   z-index: 1;
 }
 
-.oval-circle{
+.oval-round{
   display: block;
   margin:auto ;
   width: 16.375rem;
@@ -226,7 +226,6 @@
   background: #000;
   filter: blur(21.746253967285156px);
 }
-
 .XXX9-container-column-two{
   background:none;
   width: 27.8125rem;
@@ -234,16 +233,6 @@
   margin-right: 5rem;
 }
 
-.XXX9-container-column-two .new-product{
-  color: #D87D4A;
-  font-family: Manrope;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.625rem;
-  text-transform: uppercase;
-}
 .XXX9-container-column-two .XXX9-header{
   width: 27.8125rem;
   color: #000;

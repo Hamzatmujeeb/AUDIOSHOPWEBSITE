@@ -1,9 +1,8 @@
 <script>
 
 </script>
+
 <template>
- <div class="details-header-wrapper">
- </div>
  <div class="go-back">
   <!--Go back-->
   <h3>Go Back</h3>
@@ -13,14 +12,14 @@
     <div class="XXX9-wrapper">
       <div class="XXX9-wrapper-container">
         <div class="XXX9-container-column-one">
-          <img src="@/assets/images/blackheadphone2.png" alt="Logo" />
-          <div class="oval-circle"></div>
+          <img src="@/assets/images/headphone.png" alt="Headphone" />
+          <div class="oval"></div>
         </div>
         <div class="XXX9-container-column-two">
-          <h4 class="new-product">NEW PRODUCT</h4>
           <h1 class="XXX9-header">XX99 Mark I<br>Headphones</h1>
-          <p class="XXX9-text">As the gold standard for headphones, the classic XX99 Mark I<br> offers detailed and accurate audio reproduction for<br> audiophiles, mixing engineers, and music aficionados alike in<br> studios and on the go. </p>
-          <h3 class="price">$ 2,999</h3>
+          <p class="XXX9-text">As the gold standard for headphones, the classic XX99 Mark I<br> offers detailed and accurate 
+            audio reproduction for<br> audiophiles, mixing engineers, and music aficionados alike in <br>studios and on the go. </p>
+          <h3 class="price">$ 1,750</h3>
           <div class="XXX9-buttons">
             <button class="number-button">+&nbsp;<span class="one">1</span>&nbsp;-&nbsp;</button> <button class="cart-button">ADD TO CART</button>
           </div>
@@ -34,14 +33,13 @@
       <div class="features-wrapper-container">
         <div class="features-container-column-one">
           <h1 class="features-in-box-text">FEATURES</h1>
-          <p class="features-text">Featuring a genuine leather head strap and premium earcups, these headphones deliver<br> superior
-             comfort for those who like to enjoy endless listening. It includes intuitive controls<br> designed for 
-             any situation. Whether you’re taking a business call or just in your own<br> personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
-             <br><br><br>
-           The advanced Active Noise Cancellation with built-in equalizer allow you to experience<br> your audio world on your terms.
-            It lets you enjoy your audio in peace, but quickly interact<br> with your surroundings when you need to. Combined with 
-            Bluetooth 5. 0 compliant<br> connectivity and 17 hour battery life, the XX99 Mark II 
-           headphones gives you superior<br> sound, cutting-edge technology, and a modern design aesthetic.  </p>
+          <p class="features-text">As the headphones all others are measured against, the XX99 Mark I demonstrates over<br> five decades of audio expertise,
+             redefining the critical listening experience. This pair of closed-back headphones 
+            are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.
+            <br><br>
+           From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components 
+           work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise 
+           cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector. </p>
         </div>
         <div class="features-container-column-two">
           <h1 class="features-in-box-text">in the box</h1>
@@ -60,10 +58,6 @@
             <h3 class="X-text">1x</h3> 
             <h4>3.5mm 5m Audio Cable</h4>
           </div>
-          <div class="in-box-text">
-            <h3 class="X-text">1x</h3> 
-            <h4>Travel Bag</h4>
-          </div>
         </div>
       </div>
     </div>
@@ -72,11 +66,11 @@
   <section>
     <div class="gallery-container">
     <div class="grid-item">
-      <img src="@/assets/images/john2.png" alt="john2"  class="column-images-one" />
-      <img src="@/assets/images/gallery1.png" alt="gallery-1" class="column-images-one second-image" />
+      <img src="@/assets/images/gallery2.png" alt="john2"  class="column-images-one" />
+      <img src="@/assets/images/gallery3.png" alt="gallery-1" class="column-images-one second-image" />
     </div>
     <div class="grid-item2">
-      <img src="@/assets/images/gallery5.png" alt="gallery2" class="column-images-two"/>
+      <img src="@/assets/images/gallery4.png" alt="gallery2" class="column-images-two"/>
     </div>
   </div>
   </section>
@@ -88,7 +82,7 @@
     <div class="main-wrapper-container">
       <div class="main-column">
         <div class="images-background">
-          <img src="@/assets/images/headphone.png" alt="headphone" />
+          <img src="@/assets/images/blackheadphone2.png" alt="headphone" />
         </div>
         <h1 class="head-text">XX99 MARK I</h1>
         <button class="column-button">See Product</button>
@@ -171,6 +165,59 @@
 </template>
 
 <style scoped>
+.details-header-wrapper{
+  background: #000;
+  height: 8.0625rem;
+}
+
+header{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-logo{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img{
+  width: 8.9375rem;
+  height: 1.5625rem;
+}
+
+nav ul {
+   list-style: none;
+   padding: 0;
+   margin: 2.19rem 0;
+}
+
+nav li{
+    display: inline;
+    margin: 2.4rem;
+}
+
+nav a{
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 0.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5625rem; /* 192.308% */
+    letter-spacing: 0.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cart-logo{
+    width: 1.458rem;
+    height: 0.989rem;
+    background: none;
+    justify-self: end;
+}
 
 /**Go back Style */
 .go-back{
@@ -205,28 +252,27 @@
 }
 
 .XXX9-container-column-one img{
-  width: 18.49013rem;
+  width: 15.49013rem;
   height: 24.0625rem;
   margin-left : auto;
   margin-right: auto;
   display: block;
-  margin-top:4.275rem;
+  margin-top:4.625rem;
   object-fit: contain;
   z-index: 1;
 }
 
-.oval-circle{
+.XXX9-container-column-one .oval{
   display: block;
-  margin:auto ;
+  margin: auto;
   width: 16.375rem;
   height: 3.5rem;
   flex-shrink: 0;
-  border-radius: 16.375rem;
-  opacity: 0.1521;
-  background: #000;
-  filter: blur(21.746253967285156px);
+ border-radius: 16.375rem;
+ opacity: 0.1521;
+ background: #000;
+ filter: blur(21.746253967285156px);
 }
-
 .XXX9-container-column-two{
   background:none;
   width: 27.8125rem;
@@ -234,16 +280,6 @@
   margin-right: 5rem;
 }
 
-.XXX9-container-column-two .new-product{
-  color: #D87D4A;
-  font-family: Manrope;
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.625rem;
-  text-transform: uppercase;
-}
 .XXX9-container-column-two .XXX9-header{
   width: 27.8125rem;
   color: #000;
@@ -388,7 +424,7 @@
 }
 
 .in-box-text{
-  margin: -1.1225rem 0 0 0;
+  margin: -0.5rem 0 0 0;
 }
  .X-text{
   color: #D87D4A;
@@ -450,8 +486,8 @@
 .main-wrapper-header {
   text-align: center;
   margin-top: 12rem;
-color: #000;
-font-family: Manrope;
+  color: #000;
+ font-family: Manrope;
 font-size: 2rem;
 font-style: normal;
 font-weight: 700;
@@ -648,5 +684,7 @@ p.shop {
     border-radius: 0.5rem;
     flex-shrink: 0;
 }
+
+
 
 </style>
