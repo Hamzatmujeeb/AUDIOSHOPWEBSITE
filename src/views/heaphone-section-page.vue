@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="body-style">
+  <div class="body-style center-content">
     <!--Header Section-->
     <div class="header__wrapper">
       <h1 class="header-text">HEADPHONES</h1>
@@ -11,6 +11,7 @@
       <div class="IIHeadphones-container">
         <div class="IIHeadphones-column-1">
           <img src="@/assets/images/blackheadphone2.png" alt="black-head-phone" />
+          <div class="shadwow"></div>
         </div>
         <div class="IIHeadphones-column-2">
           <h2>NEW PRODUCT</h2>
@@ -34,11 +35,13 @@
         </div>
         <div class="IIHeadphones-column-1">
           <img src="@/assets/images/headphone2.png" alt="white-head-phone" />
+          <div class="shadwow"></div>
         </div>
       </div>
       <div class="IIHeadphones-container">
         <div class="IIHeadphones-column-1">
           <img src="@/assets/images/white-headphone.png" alt="white-head-phone" />
+          <div class="shadwow"></div>
         </div>
         <div class="IIHeadphones-column-2">
           <h1 class="XX99-Mark-I">XXX59</h1>
@@ -123,6 +126,7 @@
   box-sizing: border-box;
   font-family: Manrope;
 }
+
 /**Header style */
 .header__wrapper {
   background: #000;
@@ -217,7 +221,7 @@ nav a {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  margin-top: 100px;
+  margin-top: 4.25rem;
   object-fit: contain;
   z-index: 1;
 }
@@ -283,25 +287,39 @@ nav a {
 .XX99-Mark-I {
   margin-top: 7rem;
 }
+
+.shadwow {
+    width: 16.375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 16.375rem;
+    opacity: 0.1521;
+    background: #000;
+    filter: blur(21.746253967285156px);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 /*Speakers style */
 .section__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fafafa;
-  height: 40rem;
-  margin-top: 8rem;
+  padding: 4rem 0; /* Add padding to the top and bottom */
 }
 
 .section__wrapper__container {
   display: flex;
   justify-content: space-around;
-  width: 70.375rem;
-  height: 17.75rem;
-  gap: 4rem;
-  margin-left: 9rem;
-  margin-right: 10rem;
+  width: 75%;
+  gap: 0.67rem;
+  margin-top: 8rem;
+  margin-left: 3rem;
+  /* ... rest of your styles ... */
 }
+
 
 .Section__column {
   flex: 0 0 calc(30% - 10px);
@@ -361,20 +379,24 @@ nav a {
 /*Contact style */
 .main-contact-section {
   background: #fafafa;
+  padding: 4rem 0; /* Add padding to the top and bottom */
+  margin-top: 4rem;
 }
 
 .main-contact-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 9rem 0 17.86rem;
-  gap: -1rem;
+  margin: 0 auto;
+  width: 75%;
+  gap: 0.445.rem; /* Adjust the gap between the columns */
+  /* ... rest of your styles ... */
 }
 
 .main-contact-container .main-contact-container-column {
   width: 37.375rem;
   height: 36.75rem;
+  margin-left: 4rem;
 }
 
 .main-contact-container-column .column-header-text {
@@ -411,6 +433,7 @@ nav a {
   height: 36.75rem;
   border-radius: 0.5rem;
   flex-shrink: 0;
+  margin-left: 3.56rem;
 }
 
 .footer-wrapper {

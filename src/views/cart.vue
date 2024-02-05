@@ -2,13 +2,11 @@
 
 </script>
 <template>
- <div class="details-header-wrapper">
- </div>
+<body>
  <div class="go-back">
   <!--Go back-->
   <h3>Go Back</h3>
  </div>
- <!--XXX9 Section-->
  <section>
     <div class="XXX9-wrapper">
       <div class="XXX9-wrapper-container">
@@ -34,147 +32,276 @@
       <div class="features-wrapper-container">
         <div class="features-container-column-one">
           <h1 class="features-in-box-text">FEATURES</h1>
-          <p class="features-text">Featuring a genuine leather head strap and premium earcups, these headphones deliver<br> superior
-             comfort for those who like to enjoy endless listening. It includes intuitive controls<br> designed for 
-             any situation. Whether you’re taking a business call or just in your own<br> personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
-             <br><br><br>
-           The advanced Active Noise Cancellation with built-in equalizer allow you to experience<br> your audio world on your terms.
-            It lets you enjoy your audio in peace, but quickly interact<br> with your surroundings when you need to. Combined with 
-            Bluetooth 5. 0 compliant<br> connectivity and 17 hour battery life, the XX99 Mark II 
-           headphones gives you superior<br> sound, cutting-edge technology, and a modern design aesthetic.  </p>
         </div>
         <div class="features-container-column-two">
           <h1 class="features-in-box-text">in the box</h1>
-          <div class="in-box-text">
-            <h3 class="X-text">1x</h3> <h4>Headphone Unit</h4>
-          </div>
-          <div class="in-box-text">
-            <h3 class="X-text">2x</h3> 
-            <h4>Replacement Earcups</h4>
-          </div>
-          <div class="in-box-text">
-            <h3 class="X-text">1x</h3> 
-            <h4>User Manual</h4>
-          </div>
-          <div class="in-box-text">
-            <h3 class="X-text">1x</h3> 
-            <h4>3.5mm 5m Audio Cable</h4>
-          </div>
-          <div class="in-box-text">
-            <h3 class="X-text">1x</h3> 
-            <h4>Travel Bag</h4>
-          </div>
         </div>
       </div>
     </div>
   </section>
-  <!--Gallery section-->
-  <section>
-    <div class="gallery-container">
-    <div class="grid-item">
-      <img src="@/assets/images/john2.png" alt="john2"  class="column-images-one" />
-      <img src="@/assets/images/gallery1.png" alt="gallery-1" class="column-images-one second-image" />
-    </div>
-    <div class="grid-item2">
-      <img src="@/assets/images/gallery5.png" alt="gallery2" class="column-images-two"/>
-    </div>
+  <!--Cart section-->
+<!-- Cart section -->
+<div class="cart-section">
+
+<div class="cart-wrapper-container">
+  <div class="column">
+    <h2 class="cart-text">cart (3)</h2>
   </div>
-  </section>
-
-  <!--You may also like section-->
-  <main>
-  <div class="main-wrapper">
-    <h1 class="main-wrapper-header">You may also like</h1>
-    <div class="main-wrapper-container">
-      <div class="main-column">
-        <div class="images-background">
-          <img src="@/assets/images/headphone.png" alt="headphone" />
-        </div>
-        <h1 class="head-text">XX99 MARK I</h1>
-        <button class="column-button">See Product</button>
-      </div>
-
-      <div class="main-column">
-        <div class="images-background">
-          <img src="@/assets/images/white-headphone.png" alt="white-headphone" />
-        </div>
-        <h1 class="head-text">XX59</h1>
-        <button class="column-button">See Product</button>
-      </div>
-
-      <div class="main-column">
-        <div class="images-background">
-          <img src="@/assets/images/product-speaker.png" alt="speaker" />
-        </div>
-        <h1 class="head-text">ZX9 SPEAKER</h1>
-        <button class="column-button">See Product</button>
-      </div>
-    </div>
+  <div class="column">
+    <h2 class="remove-text">Remove</h2>
   </div>
-</main>
+</div>
 
-<!--Other product Section-->
-<section class="section__wrapper">
-    <div class="section__wrapper__container">
-      <div class="Section__column">
-        <img src="@/assets/images/headphone.png" alt="Headphone 1" class="product__img">
-        <div class="product__name">
-          <h2>HEADPHONES</h2>
-          <div class="shop-container">
-            <p class="shop">Shop</p>
-            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
-          </div>
-        </div>
-      </div>
-
-      <div class="Section__column">
-        <img src="@/assets/images/product-speaker.png" alt="Headphone 2" class="product__img">
-        <div class="product__name">
-          <h2>HEADPHONES</h2>
-          <div class="shop-container">
-            <p class="shop">Shop</p>
-            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
-          </div>
-        </div>
-      </div>
-
-      <div class="Section__column">
-        <img src="@/assets/images/bluetooth.png" alt="Headphone 3" class="product__img">
-        <div class="product__name">
-          <h2>HEADPHONES</h2>
-          <div class="shop-container">
-            <p class="shop">Shop</p>
-            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
-          </div>
-        </div>
-      </div>
+<div class="cart-wrapper-container">
+  <div class="column">
+    <div class="image-background">
+      <img src="@/assets/images/cart-black-headphone.png" alt="Logo" />
     </div>
-  </section>
+     <div class="product-description">
+       <h3 class="xxx9">XX99 MK II</h3>
+     </div>
+     <p class="price">$ 2,9997</p>
+  </div>
+  <div class="column">
+  <button class="number-column">+&nbsp;<span class="one">1</span>&nbsp;-&nbsp;</button>
+</div>
+</div>
 
-  <!--Contact Section-->
-  <main>
-    <div class="main-contact-section">
-      <div class="main-contact-container">
-        <div class="main-contact-container-column">
-            <h1 class="column-header-text">Bringing you the<br> <span>best</span> audio gear</h1>
-            <p class="column-header-paragraph">Located at the heart of New York City, Audiophile is the premier<br> store for high end headphones, earphones, 
-                speakers, and audio<br>accessories. We have a large showroom and luxury<br> 
-                demonstration rooms available for you to browse and <br>experience a wide range of our products. 
-                Stop by our store to<br> meet some of the fantastic people who make Audiophile the<br> best place to buy your portable audio equipment.</p>
-        </div>
-        <div class="main-contact-container-column">
-            <img src="@/assets/images/john.png" alt="John"> 
-        </div>
-      </div>
+<div class="cart-wrapper-container">
+  <div class="column">
+    <div class="image-background">
+      <img src="@/assets/images/cart-white-headphone.png" alt="Logo" />
     </div>
-</main>
+    <div class="product-description">
+       <h3>YX1</h3>
+     </div>
+     <p class="price">$ 599</p>
+  </div>
+  <div class="column">
+    <button class="number-column">+&nbsp;<span class="one">2</span>&nbsp;-&nbsp;</button>
+  </div>
+</div>
+
+<div class="cart-wrapper-container">
+  <div class="column">
+    <div class="image-background">
+      <img src="@/assets/images/cart-iphord.png" alt="Logo" />
+    </div>
+    <div class="product-description">
+       <h3>YX1</h3>
+     </div>
+     <p class="price">$ 599</p>
+  </div>
+  <div class="column">
+    <button class="number-column">+&nbsp;<span class="one">1</span>&nbsp;-&nbsp;</button>
+  </div>
+</div>
+
+<div class="cart-wrapper-container">
+  <div class="column">
+    <h2 class="total">Total</h2>
+  </div>
+  <div class="column">
+    <h2 class="total-price">$ 5,3969</h2>
+  </div>
+</div>
+
+<button class="cart-shop-button"><router-link to="/checkout">Checkout</router-link></button>
+</div>
+
+  </body>
 </template>
 
 <style scoped>
 
+body{
+    background: #979797;
+    margin: 0;
+    max-width: 120rem;
+    height: 65rem;
+    padding: auto;
+}
+
+
+.cart-section {
+  position: absolute;
+  width: 24.563rem;
+  height: 32.5rem;
+  left: 66.425rem;
+  top: 129px;
+  background: #FFFFFF;
+  border-radius: 0.453rem;
+}
+.cart-wrapper-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+.column {
+  flex: 1;
+  margin-left: 30px; /* Adjust the margin as needed */
+}
+
+.column .cart-text{
+  margin-bottom: 2rem;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+/* identical to box height */
+  letter-spacing: 1.28571px;
+  text-transform: uppercase;
+  color: #000000; 
+}
+
+.xxx9{
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-family: 'Manrope';
+  font-style: normal;
+}
+.column .remove-text{ 
+  margin-bottom: 2rem;
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 25px;
+/* identical to box height, or 167% */
+   text-decoration-line: underline;
+   color: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.5;
+}
+
+.column .image-background{
+  width: 64px;
+  height: 64px;
+  background: #F1F1F1;
+  border-radius: 8px;
+  margin-bottom:-4rem;
+  margin-left: -2px;
+}
+
+ .image-background img{
+  margin: 10px 10px 10px 10px;
+  width: 38px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.column .product-description{
+  position: relative;
+  top:-0.921rem;
+  left: 5rem;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+   color: #000000;
+}
+ .column .price{
+  position: relative;
+  top: -2rem;
+  left: 5rem;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 25px;
+/* identical to box height, or 179% */
+   color: #000000;
+   mix-blend-mode: normal;
+   opacity: 0.5;
+}
+
+/* Updated CSS for the button */
+/* Updated CSS for the button with space between characters */
+.column .number-column {
+ background: #F1F1F1;/* background color */
+  border: none;
+  color: white;
+  width: 96px;
+  height: 42px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  gap: 3rem;
+  font-size: 16px;
+  margin-right: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  letter-spacing: 2px; /* Adjust the value to add more or less space */
+}
+
+.column .number-column:hover {
+  background-color:#D87D4A; /* Darker green on hover */
+}
+
+.number-column .one{
+  color: #000;
+}
+
+.column .total{
+  margin: 0 0 4px 5px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  color: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+.column .total-price{
+  margin: 0 27px 4px 0;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.cart-shop-button {
+  margin: 30px 40px 20px 30px;
+  border: none;
+  width: 333px;
+  height: 48px;
+  background: #D87D4A;
+  color: #FFF;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+  list-style: none;
+}
+
+.cart-shop-button a {
+  text-decoration: none; /* Remove the link text decoration */
+  color: inherit; /* Inherit the color from the parent button */
+}
+
 /**Go back Style */
 .go-back{
-  margin: 4.94rem 0 0 13.31rem;
+  margin:0 0 1rem 13rem;
+  padding-top: 2rem;
   color: #000;
   font-size: 0.9375rem;
   font-family: Manrope;
@@ -202,6 +329,7 @@
   background: #F1F1F1;
   margin-left: 12rem;
   margin-top: 4rem;
+  opacity: 0.4;
 }
 
 .XXX9-container-column-one img{
@@ -212,7 +340,7 @@
   display: block;
   margin-top:4.275rem;
   object-fit: contain;
-  z-index: 1;
+  opacity: 1;
 }
 
 .oval-circle{

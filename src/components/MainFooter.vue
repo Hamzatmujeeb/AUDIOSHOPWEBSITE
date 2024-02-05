@@ -94,7 +94,6 @@ footer .footer-content{
 
 footer .copy-right{
   width: 33.75rem;
-  text-align: left;
   margin-right: 49.4rem;
   margin-left: 10.31rem;
   margin-top: 3.5rem;

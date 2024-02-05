@@ -13,14 +13,15 @@
     <div class="XXX9-wrapper">
       <div class="XXX9-wrapper-container">
         <div class="XXX9-container-column-one">
-          <img src="@/assets/images/blackheadphone2.png" alt="Logo" />
-          <div class="oval-circle"></div>
+          <img src="@/assets/images/big-speaker.png" alt="Logo" />
+          <div class="shadwow"></div>
         </div>
         <div class="XXX9-container-column-two">
           <h4 class="new-product">NEW PRODUCT</h4>
-          <h1 class="XXX9-header">XX99 Mark I<br>Headphones</h1>
-          <p class="XXX9-text">As the gold standard for headphones, the classic XX99 Mark I<br> offers detailed and accurate audio reproduction for<br> audiophiles, mixing engineers, and music aficionados alike in<br> studios and on the go. </p>
-          <h3 class="price">$ 2,999</h3>
+          <h1 class="XXX9-header">XZX9<br>SPEAKER</h1>
+          <p class="XXX9-text">Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker system that offers truly 
+            wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
+          <h3 class="price">$ 4,500</h3>
           <div class="XXX9-buttons">
             <button class="number-button">+&nbsp;<span class="one">1</span>&nbsp;-&nbsp;</button> <button class="cart-button">ADD TO CART</button>
           </div>
@@ -34,35 +35,35 @@
       <div class="features-wrapper-container">
         <div class="features-container-column-one">
           <h1 class="features-in-box-text">FEATURES</h1>
-          <p class="features-text">Featuring a genuine leather head strap and premium earcups, these headphones deliver<br> superior
-             comfort for those who like to enjoy endless listening. It includes intuitive controls<br> designed for 
-             any situation. Whether you’re taking a business call or just in your own<br> personal space, the auto on/off and pause features ensure that you’ll never miss a beat.
+          <p class="features-text">Connect via Bluetooth or nearly any wired source. This speaker features optical, digital coaxial, USB Type-B, 
+            stereo RCA, and stereo XLR inputs, allowing you to have up to
+             five wired source devices connected for easy switching. Improved bluetooth technology offers near lossless audio quality at up to 328ft (100m).
              <br><br><br>
-           The advanced Active Noise Cancellation with built-in equalizer allow you to experience<br> your audio world on your terms.
-            It lets you enjoy your audio in peace, but quickly interact<br> with your surroundings when you need to. Combined with 
-            Bluetooth 5. 0 compliant<br> connectivity and 17 hour battery life, the XX99 Mark II 
-           headphones gives you superior<br> sound, cutting-edge technology, and a modern design aesthetic.  </p>
+             Discover clear, more natural sounding highs than the competition with ZX9’s signature planar diaphragm tweeter. 
+             Equally important is its powerful room-shaking bass courtesy of a 6.5” aluminum alloy bass unit. You’ll be able to enjoy equal sound quality whether in 
+             a large room or small den. Furthermore, you will experience new sensations from old songs since it can respond to even the subtle waveforms.
+        </p>
         </div>
         <div class="features-container-column-two">
           <h1 class="features-in-box-text">in the box</h1>
           <div class="in-box-text">
-            <h3 class="X-text">1x</h3> <h4>Headphone Unit</h4>
+            <h3 class="X-text">2x</h3> <h4>Speaker Unit</h4>
           </div>
           <div class="in-box-text">
             <h3 class="X-text">2x</h3> 
-            <h4>Replacement Earcups</h4>
+            <h4>Speaker Cloth Panel</h4>
           </div>
           <div class="in-box-text">
             <h3 class="X-text">1x</h3> 
-            <h4>User Manual</h4>
+            <h4>User Manuall</h4>
           </div>
           <div class="in-box-text">
             <h3 class="X-text">1x</h3> 
-            <h4>3.5mm 5m Audio Cable</h4>
+            <h4>U3.5mm 10m Audio Cable</h4>
           </div>
           <div class="in-box-text">
             <h3 class="X-text">1x</h3> 
-            <h4>Travel Bag</h4>
+            <h4>10m Optical Cable</h4>
           </div>
         </div>
       </div>
@@ -72,11 +73,11 @@
   <section>
     <div class="gallery-container">
     <div class="grid-item">
-      <img src="@/assets/images/john2.png" alt="john2"  class="column-images-one" />
-      <img src="@/assets/images/gallery1.png" alt="gallery-1" class="column-images-one second-image" />
+      <img src="@/assets/images/gallery9.png" alt="john2"  class="column-images-one" />
+      <img src="@/assets/images/gallery8.png" alt="gallery-1" class="column-images-one second-image" />
     </div>
     <div class="grid-item2">
-      <img src="@/assets/images/gallery5.png" alt="gallery2" class="column-images-two"/>
+      <img src="@/assets/images/gallery10.png" alt="gallery2" class="column-images-two"/>
     </div>
   </div>
   </section>
@@ -88,7 +89,15 @@
     <div class="main-wrapper-container">
       <div class="main-column">
         <div class="images-background">
-          <img src="@/assets/images/headphone.png" alt="headphone" />
+          <img src="@/assets/images/mini-speaker.png" alt="headphone" />
+        </div>
+        <h1 class="head-text">ZX7 SPEAKER</h1>
+        <button class="column-button">See Product</button>
+      </div>
+
+      <div class="main-column">
+        <div class="images-background">
+          <img src="@/assets/images/headphone.png" alt="white-headphone" />
         </div>
         <h1 class="head-text">XX99 MARK I</h1>
         <button class="column-button">See Product</button>
@@ -96,17 +105,9 @@
 
       <div class="main-column">
         <div class="images-background">
-          <img src="@/assets/images/white-headphone.png" alt="white-headphone" />
+          <img src="@/assets/images/white-headphone.png" alt="speaker" />
         </div>
         <h1 class="head-text">XX59</h1>
-        <button class="column-button">See Product</button>
-      </div>
-
-      <div class="main-column">
-        <div class="images-background">
-          <img src="@/assets/images/product-speaker.png" alt="speaker" />
-        </div>
-        <h1 class="head-text">ZX9 SPEAKER</h1>
         <button class="column-button">See Product</button>
       </div>
     </div>
@@ -204,27 +205,27 @@
   margin-top: 4rem;
 }
 
+.XXX9-container-column-one .shadwow{
+    width: 16.375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 16.375rem;
+    opacity: 0.1521;
+    background: #000;
+    filter: blur(21.746253967285156px);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .XXX9-container-column-one img{
   width: 18.49013rem;
   height: 24.0625rem;
   margin-left : auto;
   margin-right: auto;
   display: block;
-  margin-top:4.275rem;
+  margin-top:4.25rem;
   object-fit: contain;
   z-index: 1;
-}
-
-.oval-circle{
-  display: block;
-  margin:auto ;
-  width: 16.375rem;
-  height: 3.5rem;
-  flex-shrink: 0;
-  border-radius: 16.375rem;
-  opacity: 0.1521;
-  background: #000;
-  filter: blur(21.746253967285156px);
 }
 
 .XXX9-container-column-two{
@@ -388,7 +389,7 @@
 }
 
 .in-box-text{
-  margin: -1.1225rem 0 0 0;
+  margin: -1.438rem 0 0 0;
 }
  .X-text{
   color: #D87D4A;

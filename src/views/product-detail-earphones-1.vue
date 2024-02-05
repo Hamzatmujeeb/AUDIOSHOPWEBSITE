@@ -1,25 +1,8 @@
 <script>
 
 </script>
-
 <template>
  <div class="details-header-wrapper">
-   <header>
-     <div class="header-logo">
-      <img src="@/assets/images/audiophile.png" alt="Logo" />
-     </div>
-     <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-    <div class="cart-logo">
-      <img src="@/assets/images/cart2-icon.png" alt="Logo" />
-    </div>
-   </header>
  </div>
  <div class="go-back">
   <!--Go back-->
@@ -30,13 +13,15 @@
     <div class="XXX9-wrapper">
       <div class="XXX9-wrapper-container">
         <div class="XXX9-container-column-one">
-          <img src="@/assets/images/headphone.png" alt="Logo" />
+          <img src="@/assets/images/big-speaker.png" alt="Logo" />
+          <div class="shadwow"></div>
         </div>
         <div class="XXX9-container-column-two">
-          <h1 class="XXX9-header">XX99 Mark I<br>Headphones</h1>
-          <p class="XXX9-text">As the gold standard for headphones, the classic XX99 Mark I<br> offers detailed and accurate 
-            audio reproduction for<br> audiophiles, mixing engineers, and music aficionados alike in <br>studios and on the go. </p>
-          <h3 class="price">$ 1,750</h3>
+          <h4 class="new-product">NEW PRODUCT</h4>
+          <h1 class="XXX9-header">YX1 WIRELESS<br>EARPHONES</h1>
+          <p class="XXX9-text">Tailor your listening experience with bespoke dynamic drivers<br> from the new YX1 Wireless Earphones.
+             Enjoy incredible<br> high-fidelity sound even in noisy environments with its active noise cancellation feature.</p>
+          <h3 class="price">$ 599</h3>
           <div class="XXX9-buttons">
             <button class="number-button">+&nbsp;<span class="one">1</span>&nbsp;-&nbsp;</button> <button class="cart-button">ADD TO CART</button>
           </div>
@@ -50,22 +35,23 @@
       <div class="features-wrapper-container">
         <div class="features-container-column-one">
           <h1 class="features-in-box-text">FEATURES</h1>
-          <p class="features-text">As the headphones all others are measured against, the XX99 Mark I demonstrates over<br> five decades of audio expertise,
-             redefining the critical listening experience. This pair of closed-back headphones 
-            are made of industrial, aerospace-grade materials to emphasize durability at a relatively light weight of 11 oz.
-            <br><br>
-           From the handcrafted microfiber ear cushions to the robust metal headband with inner damping element, the components 
-           work together to deliver comfort and uncompromising sound. Its closed-back design delivers up to 27 dB of passive noise 
-           cancellation, reducing resonance by reflecting sound to a dedicated absorber. For connectivity, a specially tuned cable is included with a balanced gold connector. </p>
+          <p class="features-text">Experience unrivalled stereo sound thanks to innovative acoustic technology. 
+            With improved ergonomics designed for full day wearing, these revolutionary earphones have 
+            been finely crafted to provide you with the perfect fit, delivering complete comfort all day long while enjoying exceptional noise isolation and truly immersive sound.
+             <br><br><br>
+             The YX1 Wireless Earphones features customizable controls for volume, music, calls,
+              and voice assistants built into both earbuds. The new 7-hour battery life can be extended up to 28 hours with the charging case, giving you uninterrupted play 
+             time. Exquisite craftsmanship with a splash resistant design now available in an all new white and grey color scheme as well as the popular classic black.
+        </p>
         </div>
         <div class="features-container-column-two">
           <h1 class="features-in-box-text">in the box</h1>
           <div class="in-box-text">
-            <h3 class="X-text">1x</h3> <h4>Headphone Unit</h4>
+            <h3 class="X-text">1x</h3> <h4>Earphone Unit</h4>
           </div>
           <div class="in-box-text">
             <h3 class="X-text">2x</h3> 
-            <h4>Replacement Earcups</h4>
+            <h4>Multi-size Earplugs</h4>
           </div>
           <div class="in-box-text">
             <h3 class="X-text">1x</h3> 
@@ -73,7 +59,11 @@
           </div>
           <div class="in-box-text">
             <h3 class="X-text">1x</h3> 
-            <h4>3.5mm 5m Audio Cable</h4>
+            <h4>USB-C Charging Cable</h4>
+          </div>
+          <div class="in-box-text">
+            <h3 class="X-text">1x</h3> 
+            <h4>Travel Pouch</h4>
           </div>
         </div>
       </div>
@@ -83,11 +73,11 @@
   <section>
     <div class="gallery-container">
     <div class="grid-item">
-      <img src="@/assets/images/gallery2.png" alt="john2"  class="column-images-one" />
-      <img src="@/assets/images/gallery3.png" alt="gallery-1" class="column-images-one second-image" />
+      <img src="@/assets/images/gallery15.png" alt="john2"  class="column-images-one" />
+      <img src="@/assets/images/gallery14.png" alt="gallery-1" class="column-images-one second-image" />
     </div>
     <div class="grid-item2">
-      <img src="@/assets/images/gallery4.png" alt="gallery2" class="column-images-two"/>
+      <img src="@/assets/images/gallery17.png" alt="gallery2" class="column-images-two"/>
     </div>
   </div>
   </section>
@@ -99,9 +89,9 @@
     <div class="main-wrapper-container">
       <div class="main-column">
         <div class="images-background">
-          <img src="@/assets/images/blackheadphone2.png" alt="headphone" />
+          <img src="@/assets/images/headphone.png" alt="headphone" />
         </div>
-        <h1 class="head-text">XX99 MARK I</h1>
+        <h1 class="head-text">ZX7 SPEAKER</h1>
         <button class="column-button">See Product</button>
       </div>
 
@@ -109,7 +99,7 @@
         <div class="images-background">
           <img src="@/assets/images/white-headphone.png" alt="white-headphone" />
         </div>
-        <h1 class="head-text">XX59</h1>
+        <h1 class="head-text">XX99 MARK I</h1>
         <button class="column-button">See Product</button>
       </div>
 
@@ -117,7 +107,7 @@
         <div class="images-background">
           <img src="@/assets/images/product-speaker.png" alt="speaker" />
         </div>
-        <h1 class="head-text">ZX9 SPEAKER</h1>
+        <h1 class="head-text">XX59</h1>
         <button class="column-button">See Product</button>
       </div>
     </div>
@@ -179,87 +169,9 @@
       </div>
     </div>
 </main>
-<div class="footer-wrapper">
-    <footer>
-        <div class="footer-logo-2">
-         <img src="@/assets/images/audiophile.png" alt="Logo">
-        </div>
-        <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Headphones</a></li>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Earphones</a></li>
-        </ul>
-      </nav>
-      <h4>Audiophile is an all in one stop to fulfill your audio needs. We're a small team<br>
-         of music lovers and sound specialists who are devoted to helping you get the<br> most out of personal 
-         audio. Come and visit our demo facility - we’re open 7<br> days a week.</h4>
-      <div class="footer-social-media">
-        <a href="#"><img src="@/assets/images/twitter.png" alt="Twitter"></a>
-        <a href="#"><img src="@/assets/images/facebook.png" alt="Facebook"></a>
-        <a href="#"><img src="@/assets/images/instagram.png" alt="Instagram"></a>
-    </div>
-
-    <P class="copy-right">Copyright 2021. All Rights Reserved</P>
-    </footer>
-</div>
 </template>
 
 <style scoped>
-.details-header-wrapper{
-  background: #000;
-  height: 8.0625rem;
-}
-
-header{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  margin: 0 auto;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.header-logo{
-  display: flex;
-  align-items: center;
-}
-
-.header-logo img{
-  width: 8.9375rem;
-  height: 1.5625rem;
-}
-
-nav ul {
-   list-style: none;
-   padding: 0;
-   margin: 2.19rem 0;
-}
-
-nav li{
-    display: inline;
-    margin: 2.4rem;
-}
-
-nav a{
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 0.8125rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5625rem; /* 192.308% */
-    letter-spacing: 0.125rem;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.cart-logo{
-    width: 1.458rem;
-    height: 0.989rem;
-    background: none;
-    justify-self: end;
-}
 
 /**Go back Style */
 .go-back{
@@ -293,13 +205,25 @@ nav a{
   margin-top: 4rem;
 }
 
+.XXX9-container-column-one .shadwow{
+    width: 16.375rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+    border-radius: 16.375rem;
+    opacity: 0.1521;
+    background: #000;
+    filter: blur(21.746253967285156px);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 .XXX9-container-column-one img{
   width: 18.49013rem;
   height: 24.0625rem;
   margin-left : auto;
   margin-right: auto;
   display: block;
-  margin-top:6.25rem;
+  margin-top:4.25rem;
   object-fit: contain;
   z-index: 1;
 }
@@ -311,6 +235,16 @@ nav a{
   margin-right: 5rem;
 }
 
+.XXX9-container-column-two .new-product{
+  color: #D87D4A;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.625rem;
+  text-transform: uppercase;
+}
 .XXX9-container-column-two .XXX9-header{
   width: 27.8125rem;
   color: #000;
@@ -455,7 +389,7 @@ nav a{
 }
 
 .in-box-text{
-  margin: -0.5rem 0 0 0;
+  margin: -1.118rem 0 0 0;
 }
  .X-text{
   color: #D87D4A;
@@ -498,10 +432,10 @@ nav a{
 }
 
 .column-images-two {
-  width: 39.6875rem;
+  width: 45.6875rem;
   height: 37rem;
   flex-shrink: 0;
-  margin-left:6rem; /* Adjust margin as needed */
+  margin-left:3rem; /* Adjust margin as needed */
   border-radius: 0.5rem;
   object-fit: contain;
 }
@@ -716,80 +650,4 @@ p.shop {
     flex-shrink: 0;
 }
 
-
-/**Footer */
-.footer-wrapper{
-    background: #000;
-    margin-top: 10rem;
-    height: 22.8125rem;
-}
-
-.footer-wrapper footer{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items:center;
-    margin: 10rem auto;
-    max-width: 1440px;
-}
- footer .footer-logo-2{
-   width: 8.9375rem;
-   height: 1.5625rem;
-   margin-left: 4rem;
-}
-
-footer nav ul{
-    list-style: none;
-    padding: 0;
-    margin: 2.19rem 0;
-}
-
-footer li{
-   margin: 2.4rem; 
-}
-
-footer li a{
-   color: #FFF;
-   font-family: Manrope;
-   font-size: 0.8125rem;
-   font-style: normal;
-   font-weight: 700;
-   line-height: 1.5625rem; /* 192.308% */
-   letter-spacing: 0.125rem;
-   text-transform: uppercase;
-   cursor: pointer;
-}
-
-footer h4{
-    width: 33.75rem;
-    color: #Ffff;
-    font-size: 0.8999rem;
-    font-weight: 500;
-    line-height: 1.5625rem;
-    margin-top: 2.5rem;
-    margin-left: 4rem;
-    opacity: 0.5;
-}
-
-.footer-social-media{
-  width: 1.5rem;
-  height: 1.5rem;
-  display: flex;
-  gap: 2rem;
-  margin-left: 25rem;
-  z-index: 3;
-  fill: #FFF;
-  cursor: pointer;
-  margin-top: 1.966rem;
-}
-footer .copy-right{
-    color: #fff;
-    font-family: Manrope;
-    font-size: 0.9375rem;
-    font-style: normal;
-   font-weight: 700;
-   line-height: 1.5625rem;
-   margin-top: 3rem;
-   margin-left: 4rem;
-   opacity: 0.5;
-}
 </style>

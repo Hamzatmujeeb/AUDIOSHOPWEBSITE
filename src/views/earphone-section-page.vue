@@ -10,10 +10,12 @@
     <h1 class="header-text">EARPHONES</h1>
   </div>
  </div>
+ <!--Go back-->
  <!--Speakers section-->
  <div class="IIHeadphones-container-earphone">
       <div class="IIHeadphones-earphone-column-1">
         <img src="@/assets/images/bluetooth2.png" alt="black-head-phone" />
+        <div class="shadwow"></div>
       </div>
       <div class="IIHeadphones-earphone-column-2">
         <h2>NEW PRODUCT</h2>
@@ -133,6 +135,17 @@
       z-index: 1;
     }
 
+  .shadwow  {
+     display: block;
+     margin:auto ;
+     width: 16.375rem;
+     height: 3.5rem;
+     flex-shrink: 0;
+     border-radius: 16.375rem;
+     opacity: 0.1521;
+     background: #000;
+     filter: blur(21.746253967285156px);
+}
     .IIHeadphones-container-earphone .IIHeadphones-earphone-column-2 {
       width: 27.8125rem;
       height: 21.4375rem;
@@ -304,80 +317,6 @@
       height: 36.75rem;
       border-radius: 0.5rem;
       flex-shrink: 0;
-    }
-
-    /* Footer */
-    .footer-wrapper {
-      background: #000;
-      margin-top: 10rem;
-      height: 22.8125rem;
-    }
-
-    .footer-wrapper footer {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
-      margin: 10rem auto;
-      max-width: 1440px;
-    }
-
-    footer .footer-logo-2 {
-      width: 8.9375rem;
-      height: 1.5625rem;
-      margin-left: 4rem;
-    }
-
-    footer nav ul {
-      list-style: none;
-      padding: 0;
-      margin: 2.19rem 0;
-    }
-
-    footer li {
-      margin: 2.4rem;
-    }
-
-    footer li a {
-      color: #FFF;
-      font-size: 0.8125rem;
-      font-weight: 700;
-      line-height: 1.5625rem;
-      letter-spacing: 0.125rem;
-      text-transform: uppercase;
-      cursor: pointer;
-    }
-
-    footer h4 {
-      width: 33.75rem;
-      color: #Ffff;
-      font-size: 0.8999rem;
-      font-weight: 500;
-      line-height: 1.5625rem;
-      margin-top: 2.5rem;
-      margin-left: 4rem;
-      opacity: 0.5;
-    }
-
-    .footer-social-media {
-      width: 1.5rem;
-      height: 1.5rem;
-      display: flex;
-      gap: 2rem;
-      margin-left: 25rem;
-      z-index: 3;
-      fill: #FFF;
-      cursor: pointer;
-      margin-top: 1.966rem;
-    }
-
-    footer .copy-right {
-      color: #fff;
-      font-size: 0.9375rem;
-      font-weight: 700;
-      line-height: 1.5625rem;
-      margin-top: 3rem;
-      margin-left: 4rem;
-      opacity: 0.5;
     }
     
 </style>
