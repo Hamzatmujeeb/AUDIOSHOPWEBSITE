@@ -14,6 +14,7 @@ import PDSpeakersLast from '../views/product-detail-speakers-2.vue';
 import PDEarphone from '../views/product-detail-earphones-1.vue';
 import Cart from '../views/cart.vue';
 import Checkout from '../views/checkout.vue'
+import checkoutModal from '../views/checkout-modal.vue';
 
 
 // Import refs from Vue
@@ -38,7 +39,8 @@ const router = createRouter({
     { path: '/product-details-speakers2', name: 'ProductDetailSpeaker2', component: PDSpeakersLast }, // Corrected the route name
     { path: '/product-details-Earphone', name: 'ProductDetailsEarphone', component: PDEarphone }, // Corrected the route name
     { path: '/cart', name: 'cart', component: Cart }, // Corrected the route name
-    { path: '/checkout', name: 'checkout', component: Checkout } // Corrected the route name
+    { path: '/checkout', name: 'checkout', component: Checkout }, // Corrected the route name
+    { path: '/checkoutmodal', name: 'checkout-modal', component: checkoutModal}
   ]
 });
 // Navigation guard to update header classes
