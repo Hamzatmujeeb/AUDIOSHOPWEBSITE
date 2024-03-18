@@ -2,34 +2,34 @@
   <section class="section__wrapper">
     <div class="section__wrapper__container">
       <div class="Section__column">
-        <img src="@/assets/images/headphone.png" alt="Headphone 1" class="product__img">
+        <img src="@/assets/images/headphone.png" alt="Headphone 1" class="product__img" />
         <div class="product__name">
           <h2>HEADPHONES</h2>
           <div class="shop-container">
             <p class="shop">Shop</p>
-            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
+            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button" />
           </div>
         </div>
       </div>
 
       <div class="Section__column">
-        <img src="@/assets/images/product-speaker.png" alt="Headphone 2" class="product__img">
+        <img src="@/assets/images/product-speaker.png" alt="Headphone 2" class="product__img" />
         <div class="product__name">
           <h2>HEADPHONES</h2>
           <div class="shop-container">
             <p class="shop">Shop</p>
-            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
+            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button" />
           </div>
         </div>
       </div>
 
       <div class="Section__column">
-        <img src="@/assets/images/bluetooth.png" alt="Headphone 3" class="product__img">
+        <img src="@/assets/images/bluetooth.png" alt="Headphone 3" class="product__img" />
         <div class="product__name">
           <h2>HEADPHONES</h2>
           <div class="shop-container">
             <p class="shop">Shop</p>
-            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button">
+            <img src="@/assets/images/Path 2.jpg" alt="next-button" class="next-button" />
           </div>
         </div>
       </div>
@@ -42,13 +42,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FAFAFA; 
-  height: 40rem;
+  background-color: #fafafa;
+  margin-bottom: 10.5rem;
+  margin-top: 12.5rem;
 }
 
 .section__wrapper__container {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   width: 80rem;
 }
 
@@ -57,12 +58,12 @@
   height: 15.75rem;
   width: 15.875rem;
   text-align: center;
-  background: #F1F1F1;
+  background: #f1f1f1;
   border-radius: 0.5rem;
 }
 
 .Section__column .product__img {
-  position: relative; 
+  position: relative;
   flex: 0 0 calc(30% - 5px);
   top: -70px;
   z-index: 1;

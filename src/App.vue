@@ -1,10 +1,10 @@
 <script setup>
-import MainHeader from './components/MainHeader.vue';
-import Headphones from './components/headphone-section.vue';
-import Speakers from './components/speakers-section.vue';
-import Earphone from './components/earphone-section.vue';
-import MainFooter from './components/MainFooter.vue';
-import { createWebHistory, createRouter } from 'vue-router';
+import MainHeader from './components/MainHeader.vue'
+import Headphones from './components/headphone-section.vue'
+import Speakers from './components/speakers-section.vue'
+import Earphone from './components/earphone-section.vue'
+import MainFooter from './components/MainFooter.vue'
+import { createWebHistory, createRouter } from 'vue-router'
 
 // Create the router instance
 /*const router = createRouter({
@@ -16,7 +16,6 @@ import { createWebHistory, createRouter } from 'vue-router';
         { path: '/earphonePage', component: Earphones }
     ]
 });*/
-
 </script>
 
 <template>
@@ -24,8 +23,8 @@ import { createWebHistory, createRouter } from 'vue-router';
     <MainHeader />
     <Headphones />
     <Speakers />
-    <Earphone />
-    <MainFooter />
+    <!-- <Earphone />
+    <MainFooter /> -->
   </div>
 </template>
 
@@ -42,7 +41,7 @@ body {
   max-width: 99.678%;
   height: auto;
   overflow: hidden;
-  background: #FAFAFA;
+  background: #fafafa;
   /* Add other global styles here */
 }
 </style>
